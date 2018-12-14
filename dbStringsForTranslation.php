@@ -453,6 +453,15 @@ __('Pacific/Wake');
 __('Pacific/Wallis');
 __('UTC');
 
+// System Admin - Import Fields
+__n('Markbook Column', 'Markbook Columns', 1);
+__n('Timetable Day', 'Timetable Days', 1);
+__n('Medical Form', 'Medical Forms', 1);
+__n('Special Day', 'Special Days', 1);
+__n('Column Row', 'Column Rows', 1);
+__n('Course', 'Courses', 1);
+__('Created By');
+
 //DYNAMIC: OVERWRITE FROM DATABASE
 //gibbonAction - category
 __('Activities') ;
