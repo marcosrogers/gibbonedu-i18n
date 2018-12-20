@@ -152,8 +152,8 @@ do
         --from-code=iso-8859-1 \
         --omit-header -j \
         --language=PHP \
-        --keyword=__:1,1t \
-        --keyword=__:2,2t \
+        --keyword=__:1 \
+        --keyword=__n:1,2 \
         -o "$I18N_HOME/$LOCALE/LC_MESSAGES/gibbon.po" \
         $(find . -type f -name "*.php" ! -path "./lib/*" ! -path "./tests/*" ! -path "./vendor/*" ! -path "./.git/*" | sed 's/ /*/g') \
         2>>$LOGFILE >/dev/null
