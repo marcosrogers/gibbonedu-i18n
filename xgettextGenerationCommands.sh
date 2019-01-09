@@ -70,6 +70,7 @@ declare -a LOCALES=(
     "sq_AL"
     "sw_KE"
     "th_TH"
+    "tr_TR"
     "uk_UA"
     "ur_IN"
     "vi_VN"
