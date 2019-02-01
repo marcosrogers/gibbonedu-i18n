@@ -72,7 +72,7 @@ declare -a LOCALES=(
     "th_TH"
     "tr_TR"
     "uk_UA"
-    "ur_IN"
+    "ur_PK"
     "vi_VN"
     "zh_CN"
     "zh_HK"
