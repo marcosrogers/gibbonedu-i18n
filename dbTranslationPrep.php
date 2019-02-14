@@ -80,10 +80,8 @@ foreach ($queries AS $query) {
 	while ($row=$result->fetch()) {
 		//Deal with special case of gibbonAction names
 		if ($query[0]=="gibbonAction" AND $query[1]=="name") {
-			if (strpos($row[$query[1]],'_')===false) {
-				print "__('" . addslashes($row[$query[1]]) . "') ;<br/>" ;
-			}
-			else {
+			print "__('" . addslashes($row[$query[1]]) . "') ;<br/>" ;
+			if (strpos($row[$query[1]],'_')!==false) {
 				print "__('" . addslashes(substr($row[$query[1]],0, strpos($row[$query[1]],'_'))) . "') ;<br/>" ;
 			}
 		}
