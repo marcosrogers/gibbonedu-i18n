@@ -17,96 +17,116 @@ You should have received a copy of the GNU General Public License
 along with this program. If not, see <http://www.gnu.org/licenses/>.
 */
 
+// Setup the composer autoloader
+require_once __DIR__.'/../vendor/autoload.php';
+
+// New PDO DB connection
+$mysqlConnector = new Gibbon\Database\MySqlConnector();
+$pdo = $mysqlConnector->connect([
+    'databaseServer'   => 'localhost',
+    'databaseName'     => 'gibbon-strings',
+    'databaseUsername' => 'root',
+    'databasePassword' => 'root',
+]);
+
+if (empty($pdo)) {
+    die('Your request failed due to a database error.');
+}
+
 print "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />" ;
-//New PDO DB connection
-try {
-  	$connection2=new PDO("mysql:host=localhost;dbname=gibbon-strings;charset=utf8", 'root', 'root');
-	$connection2->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-	$connection2->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
+
+$queries = [
+    ['gibbonAction', 'category'],
+    ['gibbonAction', 'name'],
+    ['gibbonAction', 'description'],
+    ['gibbonAlertLevel', 'name'],
+    ['gibbonAlertLevel', 'description'],
+    ['gibbonCountry', 'printable_name'],
+    ['gibbonDaysOfWeek', 'name'],
+    ['gibbonExternalAssessment', 'name'],
+    ['gibbonExternalAssessment', 'nameShort'],
+    ['gibbonExternalAssessment', 'description'],
+    ['gibbonExternalAssessmentField', 'name'],
+    ['gibbonExternalAssessmentField', 'category'],
+    ['gibbonFileExtension', 'type'],
+    ['gibbonFileExtension', 'name'],
+    ['gibbonINDescriptor', 'name'],
+    ['gibbonINDescriptor', 'nameShort'],
+    ['gibbonINDescriptor', 'description'],
+    ['gibbonLibraryType', 'name'],
+    ['gibbonLibraryType', 'fields'],
+    ['gibbonMedicalCondition', 'name'],
+    ['gibbonModule', 'name'],
+    ['gibbonModule', 'description'],
+    ['gibbonModule', 'category'],
+    ['gibbonRole', 'category'],
+    ['gibbonRole', 'name'],
+    ['gibbonRole', 'nameShort'],
+    ['gibbonRole', 'description'],
+    ['gibbonScale', 'name'],
+    ['gibbonScale', 'nameShort'],
+    ['gibbonScale', 'usage'],
+    ['gibbonScale', 'name'],
+    ['gibbonScaleGrade', 'value'],
+    ['gibbonScaleGrade', 'descriptor'],
+    ['gibbonSetting', 'nameDisplay'],
+    ['gibbonSetting', 'description'],
+    ['gibbonYearGroup', 'name'],
+    ['gibbonYearGroup', 'nameShort'],
+    ['gibbonNotificationEvent', 'event'],
+];
+
+foreach ($queries as $query) {
+    list($tableName, $fieldName) = $query;
+    $strings = [];
+
+    $result = $pdo->select("SELECT DISTINCT `" . $fieldName . "` FROM `" . $tableName . "` WHERE NOT `" . $fieldName . "`='' ORDER BY `" . $fieldName . "`");
+    
+    while ($databaseString = $result->fetchColumn(0)) {
+        // Deal with special case of gibbonAction names
+        if ($tableName=='gibbonAction' && $fieldName=='name') {
+            $strings[] = $databaseString;
+            if (strpos($databaseString, '_') !== false) {
+                $strings[] = substr($databaseString, 0, strpos($databaseString, '_'));
+            }
+        }
+
+        // Omit numeric and percentage values and descriptors from gibbonScaleGrade
+        elseif ($tableName=='gibbonScaleGrade' && ($fieldName=='value' || $fieldName=='descriptor')) {
+            if (strpos($databaseString, '%') === false && strpos($databaseString, '–') === false && !is_numeric($databaseString)) {
+                $strings[] = $databaseString;
+            }
+        }
+        
+        // Deal with special case of gibbonExternalAssessmentField categories
+        elseif ($tableName == 'gibbonExternalAssessmentField' && $fieldName=='category') {
+            if (strpos($databaseString, '_') === false) {
+                $strings[] = $databaseString;
+            } else {
+                $strings[] = substr($databaseString, (strpos($databaseString, '_')+1));
+            }
+        }
+
+        // Deal with special case of gibbonExternalAssessmentField categories
+        elseif ($tableName == 'gibbonLibraryType' && $fieldName=='fields') {
+            $fields = unserialize($databaseString) ;
+            foreach ($fields as $field) {
+                $strings[] = $field['name'];
+            }
+        }
+
+        // Deal with all other cases
+        else {
+            $strings[] = $databaseString;
+        }
+    }
+
+    print "// " . $tableName . " - " . $fieldName . "<br/>" ;
+
+    // Trim out duplicate strings, then add slashes and output
+    foreach (array_unique($strings) as $string) {
+        print "__('" . addslashes($string) . "');<br/>";
+    }
+
+    print "<br/>" ;
 }
-catch(PDOException $e) {
-  echo $e->getMessage();
-}
-
-$queries=array() ;
-
-$count=0 ; $queries[$count][0]="gibbonAction" ; $queries[$count][1]="category" ;
-$count++ ; $queries[$count][0]="gibbonAction" ; $queries[$count][1]="name" ;
-$count++ ; $queries[$count][0]="gibbonAction" ; $queries[$count][1]="description" ;
-$count++ ; $queries[$count][0]="gibbonAlertLevel" ; $queries[$count][1]="name" ;
-$count++ ; $queries[$count][0]="gibbonAlertLevel" ; $queries[$count][1]="description" ;
-$count++ ; $queries[$count][0]="gibbonCountry" ; $queries[$count][1]="printable_name" ;
-$count++ ; $queries[$count][0]="gibbonDaysOfWeek" ; $queries[$count][1]="name" ;
-$count++ ; $queries[$count][0]="gibbonExternalAssessment" ; $queries[$count][1]="name" ;
-$count++ ; $queries[$count][0]="gibbonExternalAssessment" ; $queries[$count][1]="nameShort" ;
-$count++ ; $queries[$count][0]="gibbonExternalAssessment" ; $queries[$count][1]="description" ;
-$count++ ; $queries[$count][0]="gibbonExternalAssessmentField" ; $queries[$count][1]="name" ;
-$count++ ; $queries[$count][0]="gibbonExternalAssessmentField" ; $queries[$count][1]="category" ;
-$count++ ; $queries[$count][0]="gibbonFileExtension" ; $queries[$count][1]="type" ;
-$count++ ; $queries[$count][0]="gibbonFileExtension" ; $queries[$count][1]="name" ;
-$count++ ; $queries[$count][0]="gibbonINDescriptor" ; $queries[$count][1]="name" ;
-$count++ ; $queries[$count][0]="gibbonINDescriptor" ; $queries[$count][1]="nameShort" ;
-$count++ ; $queries[$count][0]="gibbonINDescriptor" ; $queries[$count][1]="description" ;
-$count++ ; $queries[$count][0]="gibbonLibraryType" ; $queries[$count][1]="name" ;
-$count++ ; $queries[$count][0]="gibbonLibraryType" ; $queries[$count][1]="fields" ;
-$count++ ; $queries[$count][0]="gibbonMedicalCondition" ; $queries[$count][1]="name" ;
-$count++ ; $queries[$count][0]="gibbonModule" ; $queries[$count][1]="name" ;
-$count++ ; $queries[$count][0]="gibbonModule" ; $queries[$count][1]="description" ;
-$count++ ; $queries[$count][0]="gibbonModule" ; $queries[$count][1]="category" ;
-$count++ ; $queries[$count][0]="gibbonRole" ; $queries[$count][1]="category" ;
-$count++ ; $queries[$count][0]="gibbonRole" ; $queries[$count][1]="name" ;
-$count++ ; $queries[$count][0]="gibbonRole" ; $queries[$count][1]="nameShort" ;
-$count++ ; $queries[$count][0]="gibbonRole" ; $queries[$count][1]="description" ;
-$count++ ; $queries[$count][0]="gibbonScale" ; $queries[$count][1]="name" ;
-$count++ ; $queries[$count][0]="gibbonScale" ; $queries[$count][1]="nameShort" ;
-$count++ ; $queries[$count][0]="gibbonScale" ; $queries[$count][1]="usage" ;
-$count++ ; $queries[$count][0]="gibbonScale" ; $queries[$count][1]="name" ;
-$count++ ; $queries[$count][0]="gibbonScaleGrade" ; $queries[$count][1]="value" ;
-$count++ ; $queries[$count][0]="gibbonScaleGrade" ; $queries[$count][1]="descriptor" ;
-$count++ ; $queries[$count][0]="gibbonSetting" ; $queries[$count][1]="nameDisplay" ;
-$count++ ; $queries[$count][0]="gibbonSetting" ; $queries[$count][1]="description" ;
-$count++ ; $queries[$count][0]="gibbonYearGroup" ; $queries[$count][1]="name" ;
-$count++ ; $queries[$count][0]="gibbonYearGroup" ; $queries[$count][1]="nameShort" ;
-
-
-foreach ($queries AS $query) {
-	print "//" . $query[0] . " - " . $query[1] . "<br/>" ;
-	try {
-		$data=array();
-		$result=$connection2->prepare("SELECT DISTINCT `" . $query[1] . "` FROM `" . $query[0] . "` WHERE NOT `" . $query[1] . "`='' ORDER BY `" . $query[1] . "`");
-		$result->execute($data);
-	}
-	catch(PDOException $e) { print "<span='color: red'>" . $e->getMessage() . "</span>" ; }
-	while ($row=$result->fetch()) {
-		//Deal with special case of gibbonAction names
-		if ($query[0]=="gibbonAction" AND $query[1]=="name") {
-			print "__('" . addslashes($row[$query[1]]) . "') ;<br/>" ;
-			if (strpos($row[$query[1]],'_')!==false) {
-				print "__('" . addslashes(substr($row[$query[1]],0, strpos($row[$query[1]],'_'))) . "') ;<br/>" ;
-			}
-		}
-		//Deal with special case of gibbonExternalAssessmentField categories
-		else if ($query[0]=="gibbonExternalAssessmentField" AND $query[1]=="category") {
-			if (strpos($row[$query[1]],'_')===false) {
-				print "__('" . addslashes($row[$query[1]]) . "') ;<br/>" ;
-			}
-			else {
-				print "__('" . addslashes(substr($row[$query[1]],(strpos($row[$query[1]],'_')+1))) . "') ;<br/>" ;
-			}
-		}
-		//Deal with special case of gibbonExternalAssessmentField categories
-		else if ($query[0]=="gibbonLibraryType" AND $query[1]=="fields") {
-			$fields=array() ;
-			$fields=unserialize($row[$query[1]]) ;
-			foreach ($fields AS $field) {
-				print "__('" . addslashes($field["name"] ) . "') ;<br/>" ;
-			}
-		}
-		//Deal with all other cases
-		else {
-			print "__('" . addslashes($row[$query[1]]) . "') ;<br/>" ;
-		}
-	}
-	print "<br/>" ;
-}
-?>
