@@ -59,6 +59,7 @@ declare -a LOCALES=(
     "ja_JP"
     "ka_GE"
     "ko_KP"
+    "my_MM"
     "nl_NL"
     "no_NO"
     "om_ET"
