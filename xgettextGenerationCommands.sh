@@ -157,7 +157,7 @@ do
         --keyword=__:1 \
         --keyword=__n:1,2 \
         -o "$I18N_HOME/$LOCALE/LC_MESSAGES/gibbon.po" \
-        $(find . -type f -name "*.php" ! -path "./lib/*" ! -path "./tests/*" ! -path "./vendor/*" ! -path "./.git/*" | sed 's/ /*/g') \
+        $(find . -type f \( -iname "*.php" -o -iname "*.twig.html" \) ! -path "./lib/*" ! -path "./tests/*" ! -path "./vendor/*" ! -path "./.git/*" ! -path "./uploads/*" | sed 's/ /*/g') \
         2>>$LOGFILE >/dev/null
     if [ "$?" -eq 0 ]; then
         echo -e  "* generate locale text file (.po)\t\t\e[32m✓\e[0m"
