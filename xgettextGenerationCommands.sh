@@ -46,6 +46,7 @@ declare -a LOCALES=(
     "en_GB"
     "en_US"
     "es_ES"
+    "es_MX"
     "et_EE"
     "fa_IR"
     "fi_FI"
