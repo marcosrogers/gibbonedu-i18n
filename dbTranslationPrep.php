@@ -78,33 +78,19 @@ foreach ($queries as $query) {
 
     //Get enum values
     $enum = false;
-    try {
-        $data = array();
-        $sql = "SHOW COLUMNS FROM {$tableName} WHERE Field = '{$fieldName}'";
-        $result = $connection2->prepare($sql);
-        $result->execute($data);
-    } catch (PDOException $e) {
-        $page->addError($e->getMessage());
-    }
 
-    if ($result->rowCount() == 1) {
-        $row = $result->fetch();
-        if (substr($row['Type'], 0, 4) == "enum") {
+    $column = $pdo->selectOne("SHOW COLUMNS FROM {$tableName} WHERE Field = '{$fieldName}'");
+
+    if (!empty($column)) {
+        if (substr($column['Type'], 0, 4) == "enum") {
             $enum = true;
-            $strings =  explode(",", str_replace("'", "", substr($row['Type'], 5, -1)));
+            $strings =  explode(",", str_replace("'", "", substr($column['Type'], 5, -1)));
         }
     }
 
     //Get data from within rows
     if (!$enum) {
-        try {
-            $data = array();
-            $sql = "SELECT DISTINCT `" . $fieldName . "` FROM `" . $tableName . "` WHERE NOT `" . $fieldName . "`='' ORDER BY `" . $fieldName . "`";
-            $result = $connection2->prepare($sql);
-            $result->execute($data);
-        } catch (PDOException $e) {
-            $page->addError($e->getMessage());
-        }
+        $result = $pdo->select("SELECT DISTINCT `" . $fieldName . "` FROM `" . $tableName . "` WHERE NOT `" . $fieldName . "`='' ORDER BY `" . $fieldName . "`");
 
         while ($databaseString = $result->fetchColumn(0)) {
             // Deal with special case of gibbonAction names
