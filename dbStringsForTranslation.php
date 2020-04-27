@@ -878,6 +878,7 @@ __('View Timetable by Person_allYears');
 __('View Timetable by Person_my');
 __('View Timetable by Person_myChildren');
 __('Weekly Absences');
+__('Withdraw Student');
 __('Work Summary by Roll Group');
 __('Write Internal Assessments_all');
 __('Write Internal Assessments');
@@ -1064,6 +1065,7 @@ __('Edit general information on members of staff.');
 __('Edit information for users who can provide staff coverage.');
 __('Edit settings for the planner');
 __('Edit student attendance logs.');
+__('Enables admin to set a student to left and notify other users.');
 __('Generate a printable attendance sheet for activities.');
 __('Generate a report of students who are not present in class on a given day.');
 __('Gives access to control expenses, according to budget-level access rights.');
@@ -1195,7 +1197,7 @@ __('View your own marks');
 
 // gibbonAlertLevel - name
 __('High');
-__('Low');
+__('Lower');
 __('Medium');
 
 // gibbonAlertLevel - description
@@ -1598,6 +1600,10 @@ __('Windows Media Audio');
 __('Windows Media Video');
 __('ZIP Compressed Archive');
 
+// gibbonFinanceInvoicee - invoiceTo
+__('Family');
+__('Company');
+
 // gibbonINDescriptor - name
 __('English as an Additional Language');
 __('Other Needs');
@@ -1763,10 +1769,25 @@ __('Learn');
 __('Other');
 __('People');
 
+// gibbonPayment - type
+__('Online');
+__('Bank Transfer');
+__('Cash');
+__('Cheque');
+__('Other');
+__('Credit Card');
+
+// gibbonPayment - status
+__('Complete');
+__('Partial');
+__('Final');
+__('Failure');
+
 // gibbonRole - category
 __('Staff');
 __('Student');
 __('Parent');
+__('Other');
 
 // gibbonRole - name
 __('Administrator');
@@ -1851,6 +1872,7 @@ __('United Kingdom GCSE/iGCSE');
 __('United Kingdom GCSE/iGCSE Predicted');
 
 // gibbonScaleGrade - value
+__('3a');
 __('4A');
 __('4B');
 __('4C');
@@ -1896,6 +1918,7 @@ __('Late');
 __('U');
 
 // gibbonScaleGrade - descriptor
+__('3a');
 __('4A');
 __('4B');
 __('4C');
@@ -1968,6 +1991,7 @@ __('Allowable HTML');
 __('Analytics');
 __('Application Fee');
 __('Application Form Referee Link');
+__('Application Form Referee Required');
 __('Application Form SEN Text');
 __('Application Questions');
 __('Archive Information');
@@ -2387,6 +2411,7 @@ __('Should the first class attendance taken in a day have the option to record a
 __('Should the Language Options section be turned on?');
 __('Should the message bubble be regular or wide?');
 __('Should the Payment section be turned on?');
+__('Should the referee email address field be required?');
 __('Should the Roll Group Tutors of a student be notified of new behaviour records?');
 __('Should the Scholarship Options section be turned on?');
 __('Should the Special Education Needs section be turned on?');

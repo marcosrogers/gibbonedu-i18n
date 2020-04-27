@@ -17,19 +17,11 @@ You should have received a copy of the GNU General Public License
 along with this program. If not, see <http://www.gnu.org/licenses/>.
 */
 
-// Setup the composer autoloader
-require_once __DIR__.'/../vendor/autoload.php';
+//BEFORE RUNNING THIS SCRIPT, PLACE IT IN absolutePath/i18n
+// Setup to run
+require_once __DIR__.'/../gibbon.php';
 
-// New PDO DB connection
-$mysqlConnector = new Gibbon\Database\MySqlConnector();
-$pdo = $mysqlConnector->connect([
-    'databaseServer'   => 'localhost',
-    'databaseName'     => 'gibbon-strings',
-    'databaseUsername' => 'root',
-    'databasePassword' => 'root',
-]);
-
-if (empty($pdo)) {
+if (empty($connection2)) {
     die('Your request failed due to a database error.');
 }
 
@@ -50,6 +42,8 @@ $queries = [
     ['gibbonExternalAssessmentField', 'category'],
     ['gibbonFileExtension', 'type'],
     ['gibbonFileExtension', 'name'],
+    ['gibbonFinanceInvoice', 'status'],
+    ['gibbonFinanceInvoicee', 'invoiceTo'],
     ['gibbonINDescriptor', 'name'],
     ['gibbonINDescriptor', 'nameShort'],
     ['gibbonINDescriptor', 'description'],
@@ -59,6 +53,8 @@ $queries = [
     ['gibbonModule', 'name'],
     ['gibbonModule', 'description'],
     ['gibbonModule', 'category'],
+    ['gibbonPayment', 'type'],
+    ['gibbonPayment', 'status'],
     ['gibbonRole', 'category'],
     ['gibbonRole', 'name'],
     ['gibbonRole', 'nameShort'],
@@ -80,44 +76,73 @@ foreach ($queries as $query) {
     list($tableName, $fieldName) = $query;
     $strings = [];
 
-    $result = $pdo->select("SELECT DISTINCT `" . $fieldName . "` FROM `" . $tableName . "` WHERE NOT `" . $fieldName . "`='' ORDER BY `" . $fieldName . "`");
-    
-    while ($databaseString = $result->fetchColumn(0)) {
-        // Deal with special case of gibbonAction names
-        if ($tableName=='gibbonAction' && $fieldName=='name') {
-            $strings[] = $databaseString;
-            if (strpos($databaseString, '_') !== false) {
-                $strings[] = substr($databaseString, 0, strpos($databaseString, '_'));
-            }
+    //Get enum values
+    $enum = false;
+    try {
+        $data = array();
+        $sql = "SHOW COLUMNS FROM {$tableName} WHERE Field = '{$fieldName}'";
+        $result = $connection2->prepare($sql);
+        $result->execute($data);
+    } catch (PDOException $e) {
+        $page->addError($e->getMessage());
+    }
+
+    if ($result->rowCount() == 1) {
+        $row = $result->fetch();
+        if (substr($row['Type'], 0, 4) == "enum") {
+            $enum = true;
+            $strings =  explode(",", str_replace("'", "", substr($row['Type'], 5, -1)));
+        }
+    }
+
+    //Get data from within rows
+    if (!$enum) {
+        try {
+            $data = array();
+            $sql = "SELECT DISTINCT `" . $fieldName . "` FROM `" . $tableName . "` WHERE NOT `" . $fieldName . "`='' ORDER BY `" . $fieldName . "`";
+            $result = $connection2->prepare($sql);
+            $result->execute($data);
+        } catch (PDOException $e) {
+            $page->addError($e->getMessage());
         }
 
-        // Omit numeric and percentage values and descriptors from gibbonScaleGrade
-        elseif ($tableName=='gibbonScaleGrade' && ($fieldName=='value' || $fieldName=='descriptor')) {
-            if (strpos($databaseString, '%') === false && strpos($databaseString, '–') === false && !is_numeric($databaseString)) {
+        while ($databaseString = $result->fetchColumn(0)) {
+            // Deal with special case of gibbonAction names
+            if ($tableName=='gibbonAction' && $fieldName=='name') {
+                $strings[] = $databaseString;
+                if (strpos($databaseString, '_') !== false) {
+                    $strings[] = substr($databaseString, 0, strpos($databaseString, '_'));
+                }
+            }
+
+            // Omit numeric and percentage values and descriptors from gibbonScaleGrade
+            elseif ($tableName=='gibbonScaleGrade' && ($fieldName=='value' || $fieldName=='descriptor')) {
+                if (strpos($databaseString, '%') === false && strpos($databaseString, '–') === false && !is_numeric($databaseString)) {
+                    $strings[] = $databaseString;
+                }
+            }
+
+            // Deal with special case of gibbonExternalAssessmentField categories
+            elseif ($tableName == 'gibbonExternalAssessmentField' && $fieldName=='category') {
+                if (strpos($databaseString, '_') === false) {
+                    $strings[] = $databaseString;
+                } else {
+                    $strings[] = substr($databaseString, (strpos($databaseString, '_')+1));
+                }
+            }
+
+            // Deal with special case of gibbonExternalAssessmentField categories
+            elseif ($tableName == 'gibbonLibraryType' && $fieldName=='fields') {
+                $fields = unserialize($databaseString) ;
+                foreach ($fields as $field) {
+                    $strings[] = $field['name'];
+                }
+            }
+
+            // Deal with all other cases
+            else {
                 $strings[] = $databaseString;
             }
-        }
-        
-        // Deal with special case of gibbonExternalAssessmentField categories
-        elseif ($tableName == 'gibbonExternalAssessmentField' && $fieldName=='category') {
-            if (strpos($databaseString, '_') === false) {
-                $strings[] = $databaseString;
-            } else {
-                $strings[] = substr($databaseString, (strpos($databaseString, '_')+1));
-            }
-        }
-
-        // Deal with special case of gibbonExternalAssessmentField categories
-        elseif ($tableName == 'gibbonLibraryType' && $fieldName=='fields') {
-            $fields = unserialize($databaseString) ;
-            foreach ($fields as $field) {
-                $strings[] = $field['name'];
-            }
-        }
-
-        // Deal with all other cases
-        else {
-            $strings[] = $databaseString;
         }
     }
 
