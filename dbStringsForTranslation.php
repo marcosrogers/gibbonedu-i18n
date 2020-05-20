@@ -476,6 +476,7 @@ __('Courses & Classes');
 __('Coverage');
 __('Crowd Assessment');
 __('Curriculum Overview');
+__('Data');
 __('Departments');
 __('Edit Timetables');
 __('Expenses');
@@ -485,7 +486,6 @@ __('Facilities');
 __('Future Information');
 __('Groupings');
 __('Import');
-__('Import & Export');
 __('Individual Needs');
 __('Internal Assessment');
 __('Investigation');
@@ -819,6 +819,7 @@ __('Update Medical Form');
 __('Update Personal Data_any');
 __('Update Personal Data');
 __('Update Personal Data_family');
+__('Upload Reports');
 __('User Settings');
 __('View Absences_any');
 __('View Absences');
@@ -850,6 +851,7 @@ __('View Internal Assessments_myChildrens');
 __('View Invoices_mine');
 __('View Invoices');
 __('View Invoices_myChildren');
+__('View Logs');
 __('View Markbook_allClassesAllData');
 __('View Markbook');
 __('View Markbook_myClasses');
@@ -1066,6 +1068,8 @@ __('Edit information for users who can provide staff coverage.');
 __('Edit settings for the planner');
 __('Edit student attendance logs.');
 __('Enables admin to set a student to left and notify other users.');
+__('Enables users to browse Gibbon\'s event log.');
+__('Enables users to upload reports from a ZIP archive.');
 __('Generate a printable attendance sheet for activities.');
 __('Generate a report of students who are not present in class on a given day.');
 __('Gives access to control expenses, according to budget-level access rights.');
@@ -1197,7 +1201,7 @@ __('View your own marks');
 
 // gibbonAlertLevel - name
 __('High');
-__('Lower');
+__('Low');
 __('Medium');
 
 // gibbonAlertLevel - description
@@ -1600,6 +1604,14 @@ __('Windows Media Audio');
 __('Windows Media Video');
 __('ZIP Compressed Archive');
 
+// gibbonFinanceInvoice - status
+__('Pending');
+__('Issued');
+__('Paid');
+__('Paid - Partial');
+__('Cancelled');
+__('Refunded');
+
 // gibbonFinanceInvoicee - invoiceTo
 __('Family');
 __('Company');
@@ -1872,7 +1884,6 @@ __('United Kingdom GCSE/iGCSE');
 __('United Kingdom GCSE/iGCSE Predicted');
 
 // gibbonScaleGrade - value
-__('3a');
 __('4A');
 __('4B');
 __('4C');
@@ -1918,7 +1929,6 @@ __('Late');
 __('U');
 
 // gibbonScaleGrade - descriptor
-__('3a');
 __('4A');
 __('4B');
 __('4C');
@@ -2255,11 +2265,11 @@ __('A custom message to add to the standard email on acceptance.');
 __('A custom message to add to the standard email to parents on acceptance.');
 __('A custom message to add to the standard email to students on acceptance.');
 __('A link to the school behaviour policy.');
-__('A name to use instead of \"Attainment\" in the first grade column of the markbook.');
-__('A name to use instead of \"Effort\" in the second grade column of the markbook.');
-__('A short name to use instead of \"Attainment\" in the first grade column of the markbook.');
-__('A short name to use instead of \"Effort\" in the second grade column of the markbook..');
-__('Additional allowable choices for purpose when creating a resource, for those with \"Manage All Resources\" rights');
+__('A name to use instead of "Attainment" in the first grade column of the markbook.');
+__('A name to use instead of "Effort" in the second grade column of the markbook.');
+__('A short name to use instead of "Attainment" in the first grade column of the markbook.');
+__('A short name to use instead of "Effort" in the second grade column of the markbook..');
+__('Additional allowable choices for purpose when creating a resource, for those with "Manage All Resources" rights');
 __('Adds a Message Wall widget to the home page, hihglighting current messages.');
 __('Adds PHPMailer settings for servers with an SMTP connection.');
 __('After how many negative records should letter 1 be sent?');
@@ -2275,7 +2285,7 @@ __('Allowable choices for purpose when creating a resource');
 __('Allowable choices for severity level (from lowest to highest)');
 __('Allows members of the public to register to use the system.');
 __('Allows privileged users to add expenses without going through request process.');
-__('Allows teachers to specify \"Modified Assessment\" for students with individual needs.');
+__('Allows teachers to specify "Modified Assessment" for students with individual needs.');
 __('An HTML template to be used in the description field of expense requests.');
 __('An HTML template to be used in the notes and review field.');
 __('An HTML template to be used in the targets field.');
@@ -2536,10 +2546,12 @@ __('New Application Form');
 __('New Negative Record');
 __('New Positive Record');
 __('New Public Registration');
+__('New Staff');
 __('New Student Note');
 __('Overdue Loan Items');
 __('Parent Weekly Email Summary');
 __('Personal Data Updates');
+__('Staff Left');
 __('Student Bumped');
 __('Student Withdrawn');
 __('Updated Behaviour Record');
