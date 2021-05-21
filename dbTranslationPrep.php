@@ -117,9 +117,9 @@ foreach ($queries as $query) {
                 }
             }
 
-            // Deal with special case of gibbonExternalAssessmentField categories
+            // Deal with special case of gibbonLibraryType fields
             elseif ($tableName == 'gibbonLibraryType' && $fieldName=='fields') {
-                $fields = unserialize($databaseString) ;
+                $fields = json_decode($databaseString, true) ;
                 foreach ($fields as $field) {
                     $strings[] = $field['name'];
                 }
