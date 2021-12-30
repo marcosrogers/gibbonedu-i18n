@@ -36,7 +36,7 @@ function usage() {
 # declare locale code in the array
 # in alphbetical order.
 declare -a LOCALES=(
-    "af_ZN"
+    "af_ZA"
     "am_ET"
     "ar_SA"
     "bg_BG"
