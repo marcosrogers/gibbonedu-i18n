@@ -156,6 +156,7 @@ do
         --from-code=iso-8859-1 \
         --omit-header -j \
         --language=PHP \
+        --no-location \
         --keyword=__:1 \
         --keyword=__n:1,2 \
         -o "$I18N_HOME/$LOCALE/LC_MESSAGES/gibbon.po" \
