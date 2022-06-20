@@ -24340,3 +24340,105 @@ msgstr ""
 
 msgid "Online payment has not been completed at this time."
 msgstr ""
+
+msgid ""
+"The current attendance code for this student is {code}, which can only be "
+"changed by users with access to this attendance code."
+msgstr ""
+
+msgid "Duplicate Form"
+msgstr ""
+
+msgid ""
+"This form is already in use. Changes to this form could affect the data for "
+"{count} existing submissions. Proceed with caution! If you are looking to "
+"make significant changes this form, it is safer to set it to inactive and "
+"create a new form, which will prevent changes that could affect your "
+"existing submissions."
+msgstr ""
+
+#, php-format
+msgid "An error occurred sending an SMS to %2$s: %1$s"
+msgstr ""
+
+msgid ""
+"This form is already in use. Deleting this form will affect the data for "
+"{count} existing submissions. Proceed with extreme caution! It is safer to "
+"set this form to inactive and create a new form."
+msgstr ""
+
+msgid "Add Application"
+msgstr ""
+
+msgid ""
+"Manually creating and submitting an application form will bypass the normal "
+"emails, payments, and notifications that are sent upon submission. Most of "
+"these actions can be triggered afterwards through the Process tab in the "
+"Edit Application page."
+msgstr ""
+
+msgid "The selected record does not exist."
+msgstr ""
+
+msgid ""
+"This application is attached to an admissions account for {name}, who is an "
+"existing user in {system}. Some parent and family details in the application "
+"form have been hidden, as they have been superseded by the active user's "
+"data."
+msgstr ""
+
+msgid ""
+"This application is attached to an admissions account for {name}, who is no "
+"longer active in {system}. Upon acceptance, this user will be reactivated "
+"and their personal details will be updated based on the information in this "
+"application form."
+msgstr ""
+
+msgid "Continue"
+msgstr ""
+
+msgid ""
+"You can use this page to manually create an application form on behalf of "
+"another user. If the user already exists in the system, be sure to select "
+"them below so that their application will be connected to their admissions "
+"account. If the user does not exist, a new admissions account will be "
+"created."
+msgstr ""
+
+msgid "Admissions Account"
+msgstr ""
+
+msgid "Existing {role}"
+msgstr ""
+
+msgid "New Parent"
+msgstr ""
+
+msgid "Current Application"
+msgstr ""
+
+msgid ""
+"Changing the admissions account for this application will not only change "
+"the family this application is attached to, it will give the owner of the "
+"new admissions account access to this application form data. Please use care "
+"and caution when making this change."
+msgstr ""
+
+msgid "There are less than 4 data points, so no graph can be produced."
+msgstr ""
+
+msgid ""
+"One or more selected dates are not a school day. Check here to confirm if "
+"you would like to include these dates."
+msgstr ""
+
+msgid "{total} Total (across {count} Days)"
+msgstr ""
+
+msgid "Automatic Reference Request"
+msgstr ""
+
+msgid ""
+"Should a reference request be sent automatically when the form is submitted? "
+"Otherwise, it can be sent manually through the application process tab."
+msgstr ""
