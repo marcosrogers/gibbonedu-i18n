@@ -2169,6 +2169,7 @@ __('Include Alternate Email?');
 __('Index Page Text');
 __('Informal Name Format');
 __('Informal Name Reversed');
+__('Install Demo Data?');
 __('Install Type');
 __('Internal Assessment Data Points');
 __('Internal Assessment Types');
