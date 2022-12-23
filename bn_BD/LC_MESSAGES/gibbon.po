@@ -24442,3 +24442,304 @@ msgid ""
 "Should a reference request be sent automatically when the form is submitted? "
 "Otherwise, it can be sent manually through the application process tab."
 msgstr ""
+
+msgid "Daily Coverage Planner"
+msgstr ""
+
+msgid "Duty Schedule_edit"
+msgstr ""
+
+msgid "Duty Schedule"
+msgstr ""
+
+msgid "Duty Schedule_view"
+msgstr ""
+
+msgid "New Message_confidential"
+msgstr ""
+
+msgid "Timetable Settings"
+msgstr ""
+
+msgid ""
+"Enable users to send confidential messages which are not listed in Manage "
+"Messages for any other user."
+msgstr ""
+
+msgid "Manage settings to control timetable functionality."
+msgstr ""
+
+msgid "Manage the staff duty schedule."
+msgstr ""
+
+msgid "View the staff duty schedule."
+msgstr ""
+
+msgid "Coverage Mode"
+msgstr ""
+
+msgid "Internal Coverage"
+msgstr ""
+
+msgid "Maximum Enrolment Default"
+msgstr ""
+
+msgid "Minimum Enrolment Default"
+msgstr ""
+
+msgid ""
+"If Yes, teachers can be assigned to cover each other. Otherwise, only users "
+"added through Manage Substitutes will be available for coverage."
+msgstr ""
+
+msgid ""
+"Should teachers send coverage requests directly to substitutes, or will it "
+"be assigned for them?"
+msgstr ""
+
+msgid "The default value for maximum class enrolment."
+msgstr ""
+
+msgid "The default value for minimum class enrolment."
+msgstr ""
+
+msgid "New Investigation"
+msgstr ""
+
+msgid ""
+"This class has more than one timetabled lesson on the selected date. Please "
+"choose a period above to take attendance for the desired lesson."
+msgstr ""
+
+msgid "Attendance History for {name}"
+msgstr ""
+
+msgid ""
+"You do not have access to edit the unit planner for any active courses in "
+"the current school year. You may need to be added to the relevant Department "
+"or Learning Area for the courses you are trying to access, or those courses "
+"may not have been added to the necessary Department or Learning Area."
+msgstr ""
+
+msgid "Last Login: Time"
+msgstr ""
+
+msgid "Last Login: IP"
+msgstr ""
+
+msgid "Teachers can request their own substitutes"
+msgstr ""
+
+msgid "Substitutes are assigned to teachers"
+msgstr ""
+
+msgid "Off Timetable"
+msgstr ""
+
+msgid "Cancel Activities?"
+msgstr ""
+
+msgid ""
+"Should activities scheduled for this day no longer appear on the timetable?"
+msgstr ""
+
+msgid ""
+"When not prefilled from existing data, what is the default value for this "
+"field? Use Y or N for Yes/No fields."
+msgstr ""
+
+msgid "Phone Number Fields"
+msgstr ""
+
+msgid "View Staff"
+msgstr ""
+
+msgid "We have successfully recorded your confirmation for: {subject}"
+msgstr ""
+
+msgid "Confidential"
+msgstr ""
+
+msgid "{count} more"
+msgstr ""
+
+msgid ""
+"Email read receipts have been enabled for this message. You can use the "
+"Resend action along with the checkboxes next to recipients who have not yet "
+"confirmed to send a reminder to these users."
+msgstr ""
+
+msgid ""
+"Recipients who may not have received the original email due to a delivery "
+"issue are highlighted in orange."
+msgstr ""
+
+msgid ""
+"Email read receipts have not been enabled for this message, however you can "
+"still use the Resend action to manually send messages."
+msgstr ""
+
+msgid "At Least One Parent"
+msgstr ""
+
+msgid "Both Parents"
+msgstr ""
+
+msgid "Student and Parent"
+msgstr ""
+
+msgid "Any Recipient"
+msgstr ""
+
+msgid "Confirmation Required By"
+msgstr ""
+
+msgid ""
+"Your message is not ready to send because no targets have been selected or "
+"no valid recipients were found. Be sure to select at least one target for "
+"your message."
+msgstr ""
+
+msgid ""
+"This is a draft message, it has not been sent yet. You may continue editing "
+"the message contents below."
+msgstr ""
+
+msgid "Preview & Send"
+msgstr ""
+
+msgid "SMS Preview"
+msgstr ""
+
+msgid "chars"
+msgstr ""
+
+msgid "Edit Draft"
+msgstr ""
+
+msgid "Other users will not be able to see this message in Manage Messages."
+msgstr ""
+
+msgid "SMS messages will not include the subject line."
+msgstr ""
+
+msgid "Preflight"
+msgstr ""
+
+msgid ""
+"Before sending your message you'll have the option to preview the message as "
+"well as view a list of the recipients, based on your targets selected above. "
+"You can also choose to save your message as a draft and return to it later."
+msgstr ""
+
+msgid "Send a test copy to {email}"
+msgstr ""
+
+msgid "Save Draft"
+msgstr ""
+
+msgid ""
+"SMS sending has been enabled. Your signature has automatically been removed "
+"from the message body. Please note that the subject line is not included in "
+"SMS messages."
+msgstr ""
+
+msgid "Duty"
+msgstr ""
+
+msgid "Edit Duty Schedule"
+msgstr ""
+
+msgid ""
+"There are currently no available substitutes for {count} of the following "
+"classes."
+msgstr ""
+
+msgid "A notification will be sent to administration."
+msgstr ""
+
+msgid ""
+"You can still send a request, as substitute availability may change, but you "
+"cannot select a specific substitute for these classes."
+msgstr ""
+
+msgid "No substitutes available."
+msgstr ""
+
+msgid "Select at least one date and/or time before continuing."
+msgstr ""
+
+msgid "Weekday"
+msgstr ""
+
+msgid "No coverage required."
+msgstr ""
+
+msgid "Covered"
+msgstr ""
+
+msgid "Cover Required"
+msgstr ""
+
+msgid "Under Enrolled"
+msgstr ""
+
+msgid "Over Enrolled"
+msgstr ""
+
+msgid "Minimum Enrolment"
+msgstr ""
+
+msgid "Class should not run below this number of students."
+msgstr ""
+
+msgid "Maximum Enrolment"
+msgstr ""
+
+msgid "Enrolment should not exceed this number of students."
+msgstr ""
+
+msgid "Edit Timetable by Class"
+msgstr ""
+
+msgid "Add Timetable Entry"
+msgstr ""
+
+msgid "Timetable Entries will appear here."
+msgstr ""
+
+msgid ""
+"This class is currently under enrolled, based on a minimum enrolment of "
+"{enrolmentMin} students."
+msgstr ""
+
+msgid ""
+"This class is currently over enrolled, based on a maximum enrolment of "
+"{enrolmentMax} students."
+msgstr ""
+
+msgid "Single-sided"
+msgstr ""
+
+msgid "Booked For"
+msgstr ""
+
+msgid "Changed"
+msgstr ""
+
+msgid "Lesson Plan"
+msgstr ""
+
+msgid "Require at least one uppercase letter."
+msgstr ""
+
+msgid "Require at least one lowercase letter."
+msgstr ""
+
+msgid "Require at least one number."
+msgstr ""
+
+msgid ""
+"Require at least one non-alphanumeric character (e.g. a punctuation mark or "
+"space)."
+msgstr ""
