@@ -462,6 +462,9 @@ __n('Special Day', 'Special Days', 1);
 __n('Column Row', 'Column Rows', 1);
 __('Created By');
 
+// Form built-in strings
+__('Please select...');
+
 //DYNAMIC: OVERWRITE FROM DATABASE
 // gibbonAction - category
 __('Absences');
