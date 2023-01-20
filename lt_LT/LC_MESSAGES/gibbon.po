@@ -25565,3 +25565,58 @@ msgid ""
 "Require at least one non-alphanumeric character (e.g. a punctuation mark or "
 "space)."
 msgstr ""
+
+msgid ""
+"This page shows your children's academic results throughout your school "
+"career. Only subjects with published results are shown."
+msgstr ""
+
+msgid ""
+"This lesson occurred prior to enrolling in the class. Due dates and "
+"incomplete work will not be counted for this lesson."
+msgstr ""
+
+msgid ""
+"Select a module or role from the filters above to view and edit user "
+"permissions."
+msgstr ""
+
+msgid ""
+"For security reasons, Rich Text and Code fields cannot be used on public "
+"facing forms. These fields have been disabled."
+msgstr ""
+
+msgid "Outstanding Amount"
+msgstr ""
+
+msgid "Cover"
+msgstr ""
+
+msgid "Unassign"
+msgstr ""
+
+msgid "{count} Period"
+msgid_plural "{count} Periods"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid ""
+"{nameAbsent} has submitted a coverage request for their {type} absence on "
+"{date}."
+msgstr ""
+
+msgid ""
+"This is an administrative tool to assist with timetable changes. When "
+"changing facilities, it <b>does not</b> prevent timetabling into a facility "
+"that is already in use. Be sure to check availability before making such "
+"changes."
+msgstr ""
+
+msgid "Covering for {name}"
+msgstr ""
+
+msgid "Covered by {name}"
+msgstr ""
+
+msgid "Staff Duty"
+msgstr ""
