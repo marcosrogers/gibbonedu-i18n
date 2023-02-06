@@ -462,8 +462,9 @@ __n('Special Day', 'Special Days', 1);
 __n('Column Row', 'Column Rows', 1);
 __('Created By');
 
-// Form built-in strings
+// System built-in strings
 __('Please select...');
+__('This page requires you to be logged in to access it. Please login and try again.');
 
 //DYNAMIC: OVERWRITE FROM DATABASE
 // gibbonAction - category
