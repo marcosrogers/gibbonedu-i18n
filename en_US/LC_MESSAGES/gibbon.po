@@ -14,11 +14,11 @@ msgstr ""
 
 #: 
 msgid "My Timetable"
-msgstr "My Schedule"
+msgstr ""
 
 #: 
 msgid "My Form Group"
-msgstr "My Grade Level"
+msgstr ""
 
 #: 
 msgid "Error"
@@ -146,7 +146,7 @@ msgstr ""
 
 #: 
 msgid "Your data may not look quite right (for example, students who have left the school will not appear in previous years), but you should be able to edit information from other years which is not available in the current year."
-msgstr "Your data may not look quite right (for example, students who have left will not appear in previous years), but you should be able to edit information from other years which is not available in the current year."
+msgstr ""
 
 #: 
 msgid "Preferences"
@@ -250,7 +250,7 @@ msgstr ""
 
 #: 
 msgid "View Markbook"
-msgstr "View Gradebook"
+msgstr ""
 
 #: 
 msgid "Assessment"
@@ -274,7 +274,7 @@ msgstr ""
 
 #: 
 msgid "Marked on"
-msgstr "Graded on"
+msgstr ""
 
 #: 
 msgid "View Description"
@@ -502,7 +502,7 @@ msgstr ""
 
 #: 
 msgid "<b>Markbook</b> provides an organised way to assess, record and report on student progress. Use grade scales, rubrics, comments and file uploads to keep students and parents up to date. Link markbooks to the %1$sPlanner%2$s, and see student work as you are marking it.<br/><br/>Choose a class from the menu on the right, and then click on the \"Add\" button (below this message, on the right) to create a new markbook column."
-msgstr "<b>Markbook</b> provides an organized way to assess, record and report on student progress. Use grade scales, rubrics, comments and file uploads to keep students and parents up to date. Link gradebook to the %1$sPlanner%2$s, and see student work as you are grading it.<br/><br/>Choose a class from the menu on the right, and then click on the \"Add\" button (below this message, on the right) to create a new gradebook column."
+msgstr ""
 
 #: 
 msgid "Dismiss Smart Workflow Help"
@@ -630,7 +630,7 @@ msgstr ""
 
 #: 
 msgid "Recent Marks"
-msgstr "Recent Grades"
+msgstr ""
 
 #: 
 msgid "My Classes"
@@ -638,7 +638,7 @@ msgstr ""
 
 #: 
 msgid "Markbook"
-msgstr "Gradebook"
+msgstr ""
 
 #: 
 msgid "People"
@@ -790,11 +790,11 @@ msgstr ""
 
 #: 
 msgid "Year Groups"
-msgstr "Graduating Classes"
+msgstr ""
 
 #: 
 msgid "No year groups available."
-msgstr "No graduating classes available."
+msgstr ""
 
 #: 
 msgid "Use Control, Command and/or Shift to select multiple."
@@ -918,7 +918,7 @@ msgstr ""
 
 #: 
 msgid "Year Group"
-msgstr "Graduating Class"
+msgstr ""
 
 #: 
 msgid "Back"
@@ -978,7 +978,7 @@ msgstr ""
 
 #: 
 msgid "Term"
-msgstr "Marking Period"
+msgstr ""
 
 #: 
 msgid "1"
@@ -1210,7 +1210,7 @@ msgstr ""
 
 #: 
 msgid "Year groups to which this field is relevant."
-msgstr "Graduating classes to which this field is relevant."
+msgstr ""
 
 #: 
 msgid "Edit Grade"
@@ -1346,7 +1346,7 @@ msgstr ""
 
 #: 
 msgid "Markbook Settings"
-msgstr "Gradebook Settings"
+msgstr ""
 
 #: 
 msgid "On"
@@ -1362,11 +1362,11 @@ msgstr ""
 
 #: 
 msgid "Manage Form Groups"
-msgstr "Manage Grade Levels"
+msgstr ""
 
 #: 
 msgid "Form Tutors"
-msgstr "Grade Level Tutors"
+msgstr ""
 
 #: 
 msgid "Space"
@@ -1374,7 +1374,7 @@ msgstr ""
 
 #: 
 msgid "Add Form Group"
-msgstr "Add Grade Level"
+msgstr ""
 
 #: 
 msgid "Tutors"
@@ -1382,11 +1382,11 @@ msgstr ""
 
 #: 
 msgid "Up to 3 per form group. The first-listed will be marked as \"Main Tutor\"."
-msgstr "Up to 3 per grade level. The first-listed will be marked as \"Main Tutor\"."
+msgstr ""
 
 #: 
 msgid "Next Form Group"
-msgstr "Next Grade Level"
+msgstr ""
 
 #: 
 msgid "Sets student progression on rollover."
@@ -1394,7 +1394,7 @@ msgstr ""
 
 #: 
 msgid "Edit Form Group"
-msgstr "Edit Grade Level"
+msgstr ""
 
 #: 
 msgid "Sequence"
@@ -1446,7 +1446,7 @@ msgstr ""
 
 #: 
 msgid "There are no terms in the specified year."
-msgstr "There are no marking periods in the specified year."
+msgstr ""
 
 #: 
 msgid "Monday"
@@ -1498,15 +1498,15 @@ msgstr ""
 
 #: 
 msgid "Manage Terms"
-msgstr "Manage Marking Periods"
+msgstr ""
 
 #: 
 msgid "Add Term"
-msgstr "Add Marking Period"
+msgstr ""
 
 #: 
 msgid "Edit Term"
-msgstr "Edit Marking Period"
+msgstr ""
 
 #: 
 msgid "Capacity"
@@ -1614,11 +1614,11 @@ msgstr ""
 
 #: 
 msgid "Manage Year Groups"
-msgstr "Manage Graduating Classes"
+msgstr ""
 
 #: 
 msgid "Add Year Group"
-msgstr "Add Graduating Class"
+msgstr ""
 
 #: 
 msgid "Language Settings"
@@ -1822,7 +1822,7 @@ msgstr ""
 
 #: 
 msgid "Enrolable year groups."
-msgstr "Enrollable graduating classes."
+msgstr ""
 
 #: 
 msgid "Edit Course & Classes"
@@ -1878,7 +1878,7 @@ msgstr ""
 
 #: 
 msgid "Preferred, surname, username."
-msgstr "Preferred, last name, username."
+msgstr ""
 
 #: 
 msgid "Include non-staff, non-student users."
@@ -1914,7 +1914,7 @@ msgstr "Current Enrollment"
 
 #: 
 msgid "Mark as left"
-msgstr "Mark as left"
+msgstr ""
 
 #: 
 msgid "Delete"
@@ -1938,7 +1938,7 @@ msgstr ""
 
 #: 
 msgid "Student - Left"
-msgstr "Student - Left"
+msgstr ""
 
 #: 
 msgid "Teacher - Left"
@@ -1970,11 +1970,11 @@ msgstr ""
 
 #: 
 msgid "Class Enrolment by Form Group"
-msgstr "Class Enrollment by Grade Level"
+msgstr "Class Enrollment by Form Group"
 
 #: 
 msgid "Choose Form Group"
-msgstr "Choose Grade Level"
+msgstr ""
 
 #: 
 msgid "Class Count"
@@ -1982,7 +1982,7 @@ msgstr ""
 
 #: 
 msgid "Manage Timetables"
-msgstr "Manage Schedules"
+msgstr ""
 
 #: 
 msgid "Import"
@@ -1990,19 +1990,19 @@ msgstr ""
 
 #: 
 msgid "Add Timetable"
-msgstr "Add Schedule"
+msgstr ""
 
 #: 
 msgid "Groups not in an active TT this year."
-msgstr "Groups not in an active schedule this year."
+msgstr ""
 
 #: 
 msgid "Edit Timetable"
-msgstr "Edit Schedule"
+msgstr ""
 
 #: 
 msgid "Edit Timetable Days"
-msgstr "Edit Schedule Days"
+msgstr ""
 
 #: 
 msgid "Column"
@@ -2010,19 +2010,19 @@ msgstr ""
 
 #: 
 msgid "Add Timetable Day"
-msgstr "Add Schedule Day"
+msgstr ""
 
 #: 
 msgid "Timetable"
-msgstr "Schedule"
+msgstr ""
 
 #: 
 msgid "Timetable Column"
-msgstr "Schedule Column"
+msgstr ""
 
 #: 
 msgid "Edit Timetable Day"
-msgstr "Edit Schedule Day"
+msgstr ""
 
 #: 
 msgid "Edit Classes by Period"
@@ -2070,7 +2070,7 @@ msgstr ""
 
 #: 
 msgid "Import Timetable Data"
-msgstr "Import Schedule Data"
+msgstr ""
 
 #: 
 msgid "Step 1 - Select CSV Files"
@@ -2078,7 +2078,7 @@ msgstr ""
 
 #: 
 msgid "This page allows you to import timetable data from a CSV file. The import includes all classes and their teachers. There is no support for importing students: these need to be entered manually into the relevant classes. The system will do its best to keep existing data intact, whilst updating what is necessary (note: you will lose student exceptions from timetabled classes). Select the CSV files you wish to use for the synchronise operation."
-msgstr "This page allows you to import schedule data from a CSV file. The import includes all classes and their teachers. There is no support for importing students: these need to be entered manually into the relavent classes. The system will do its best to keep existing data in tact, whilst updating what is necessary (note: you will lose student exceptions from scheduled classes). Select the CSV files you wish to use for the synchronize operation."
+msgstr ""
 
 #: 
 msgid "CSV File"
@@ -2110,7 +2110,7 @@ msgstr ""
 
 #: 
 msgid "The import includes course, class, period, teacher and room information: the structure of the target timetable must already be in place."
-msgstr "The import includes course, class, period, teacher and room information: the structure of the target schedule must already be in place."
+msgstr ""
 
 #: 
 msgid "The import does not include student lists."
@@ -2130,11 +2130,11 @@ msgstr ""
 
 #: 
 msgid "Day Name - as used in the target timetable"
-msgstr "Day Name - as used in the target schedule"
+msgstr ""
 
 #: 
 msgid "Row Name - as used in the target timetable"
-msgstr "Row Name - as used in the target schedule"
+msgstr ""
 
 #: 
 msgid "Teacher Username - comma-separated list of Gibbon usernames for teacher(s) of the lesson. Alternatively, give each teacher their own row."
@@ -2214,7 +2214,7 @@ msgstr ""
 
 #: 
 msgid "The day check was successfully completed: all days in the import file were found in Gibbon in the specified timetable."
-msgstr "The day check was successfully completed: all days in the import file were found in Gibbon in the specified schedule."
+msgstr ""
 
 #: 
 msgid "Row check failed. The following rows were in the import file but could not be found in Gibbon: %1$s. Add the rows into Gibbon and then try the import again."
@@ -2222,7 +2222,7 @@ msgstr ""
 
 #: 
 msgid "The row check was successfully completed: all rows in the import file were found in Gibbon in the specified timetable on the specified days."
-msgstr "The row check was successfully completed: all rows in the import file were found in Gibbon in the specified schedule on the specified days."
+msgstr ""
 
 #: 
 msgid "Course check failed. The following courses were in the import file but could not be found or made in Gibbon: %1$s. Add the courses into Gibbon and then try the import again."
@@ -2266,7 +2266,7 @@ msgstr ""
 
 #: 
 msgid "You are ready to go. %1$sClick here to import the timetable. Your old timetable will be obliterated%2$s."
-msgstr "You are ready to go. %1$sClick here to import the schedule. Your old schedule will be obliterated%2$s."
+msgstr ""
 
 #: 
 msgid "Step 3 - Import"
@@ -2290,11 +2290,11 @@ msgstr ""
 
 #: 
 msgid "Add/update of periods from import failed. Parts of your timetable may display correctly, but others may be missing, incomplete or incorrect."
-msgstr "Add/update of periods from import failed. Parts of your schedule may display correctly, but others may be missing, incomplete or incorrect."
+msgstr ""
 
 #: 
 msgid "Add/update of periods from import was successful. You may now wish to set long name, learning area and year groups for any new courses created in Step 2."
-msgstr "Add/update of periods from import was successful. You may now wish to set long name, learning area and graduating classes for any new courses created in Step 2."
+msgstr ""
 
 #: 
 msgid "Final Result"
@@ -2306,7 +2306,7 @@ msgstr ""
 
 #: 
 msgid "Success! Your new timetable is in place."
-msgstr "Success! Your new schedule is in place."
+msgstr ""
 
 #: 
 msgid "Manage Columns"
@@ -2314,7 +2314,7 @@ msgstr ""
 
 #: 
 msgid "In Gibbon a column is a holder for the structure of a day. A number of columns can be defined, and these can be tied to particular timetable days in the timetable interface."
-msgstr "In Gibbon a column is a holder for the structure of a day. A number of columns can be defined, and these can be tied to particular schedule days in the schedule interface."
+msgstr ""
 
 #: 
 msgid "Rows"
@@ -2454,7 +2454,7 @@ msgstr ""
 
 #: 
 msgid "Enrol the student in the selected school year (as the student has not been assigned to a form group)."
-msgstr "Enroll the student in the selected school year (as the student has been assigned to a grade level)."
+msgstr "Enroll the student in the selected school year (as the student has been assigned to a form group)."
 
 #: 
 msgid "Save the student's payment preferences."
@@ -2498,7 +2498,7 @@ msgstr ""
 
 #: 
 msgid "Create a timetable for the student."
-msgstr "Create a schedule for the student."
+msgstr ""
 
 #: 
 msgid "Student could not be created!"
@@ -2514,7 +2514,7 @@ msgstr "Student could not be enrolled, so this will have to be done manually at 
 
 #: 
 msgid "The student has successfully been enrolled in the specified school year, year group and form group."
-msgstr "The student has successfully been enrolled in the specified school year, and graduating class, and grade level."
+msgstr "The student has successfully been enrolled in the specified school year, and year group, and form group."
 
 #: 
 msgid "Student payment details could not be saved, but we will continue, as this is a minor issue."
@@ -2674,11 +2674,11 @@ msgstr ""
 
 #: 
 msgid "Year Group at Entry"
-msgstr "Graduating Class at Entry"
+msgstr ""
 
 #: 
 msgid "Which year level will student enter."
-msgstr "Which grade level will student enter."
+msgstr ""
 
 #: 
 msgid "Day Type"
@@ -2686,7 +2686,7 @@ msgstr ""
 
 #: 
 msgid "Form Group at Entry"
-msgstr "Grade Level at Entry"
+msgstr ""
 
 #: 
 msgid "If set, the student will automatically be enrolled on Accept."
@@ -2706,7 +2706,7 @@ msgstr ""
 
 #: 
 msgid "Surname"
-msgstr "Last Name"
+msgstr ""
 
 #: 
 msgid "First Name"
@@ -3794,7 +3794,7 @@ msgstr ""
 
 #: 
 msgid "Left"
-msgstr "Left"
+msgstr ""
 
 #: 
 msgid "Enrol New Students (Status Expected)"
@@ -3806,7 +3806,7 @@ msgstr "Take students who are marked expected and enroll them. All parents of ne
 
 #: 
 msgid "Year groups or form groups are not properly set up, so you cannot proceed with this section."
-msgstr "Graduating Classes or Grade Levels are not properly set up, so you cannot proceed with this section."
+msgstr ""
 
 #: 
 msgid "Enrol"
@@ -3830,7 +3830,7 @@ msgstr "Any students who are not re-enrolled will have their status set to \"Lef
 
 #: 
 msgid "Set Final Year Students To Left"
-msgstr "Set Final Year Students to Left"
+msgstr ""
 
 #: 
 msgid "Register New Staff"
@@ -3838,7 +3838,7 @@ msgstr ""
 
 #: 
 msgid "Any staff who are not registered will have their status set to \"Left\"."
-msgstr "Any staff who are not registered will have their status set to \"Left\"."
+msgstr ""
 
 #: 
 msgid "Teaching"
@@ -4234,11 +4234,11 @@ msgstr ""
 
 #: 
 msgid "Terms"
-msgstr "Marking Periods"
+msgstr ""
 
 #: 
 msgid "Terms in which the activity will run."
-msgstr "Marking Periods in which the activity will run."
+msgstr ""
 
 #: 
 msgid "Listing Start Date"
@@ -4250,7 +4250,7 @@ msgstr ""
 
 #: 
 msgid "Default: 2 weeks before the end of the current term."
-msgstr "Default: 2 weeks before the end of the current marking period."
+msgstr ""
 
 #: 
 msgid "Listing End Date"
@@ -4258,7 +4258,7 @@ msgstr ""
 
 #: 
 msgid "Default: 2 weeks after the start of next term."
-msgstr "Default: 2 weeks after the start of the next marking period."
+msgstr ""
 
 #: 
 msgid "Program Start Date"
@@ -4266,7 +4266,7 @@ msgstr ""
 
 #: 
 msgid "Default: first day of next term."
-msgstr "Default: first day of next marking period."
+msgstr ""
 
 #: 
 msgid "Program End Date"
@@ -4274,7 +4274,7 @@ msgstr ""
 
 #: 
 msgid "Default: last day of the next term."
-msgstr "Default: last day of the next marking period."
+msgstr ""
 
 #: 
 msgid "Max Participants"
@@ -4414,7 +4414,7 @@ msgstr ""
 
 #: 
 msgid "You have subscribed for the maximum number of activities in a term, and so cannot register for this activity."
-msgstr "You have subscribed for the maximum number of activities in a marking period, and so cannot register for this activity."
+msgstr ""
 
 #: 
 msgid "After you press the Register button below, your application will be considered by a member of staff who will decide whether or not there is space for you in this program."
@@ -4450,7 +4450,7 @@ msgstr ""
 
 #: 
 msgid "Students by Form Group"
-msgstr "Students by Grade Level"
+msgstr ""
 
 #: 
 msgid "Students by Name"
@@ -4474,7 +4474,7 @@ msgstr ""
 
 #: 
 msgid "Activity Spread by Form Group"
-msgstr "Activity Spread by Grade Level"
+msgstr ""
 
 #: 
 msgid "Some activities not accepted."
@@ -4482,7 +4482,7 @@ msgstr ""
 
 #: 
 msgid "Activity Type by Form Group"
-msgstr "Activity Type by Grade Level"
+msgstr ""
 
 #: 
 msgid "No Type"
@@ -4614,7 +4614,7 @@ msgstr ""
 
 #: 
 msgid "Edit Markbook"
-msgstr "Edit Gradebook"
+msgstr ""
 
 #: 
 msgid "Edit"
@@ -4630,7 +4630,7 @@ msgstr ""
 
 #: 
 msgid "Markbook Columns"
-msgstr "Gradebook Columns"
+msgstr ""
 
 #: 
 msgid "Name/Unit"
@@ -4658,7 +4658,7 @@ msgstr ""
 
 #: 
 msgid "Planner was successfully added: you opted to add a linked Markbook column, and you can now do so below."
-msgstr "Planner was successfully added: you opted to add a linked Gradebook column, and you can now do so below."
+msgstr ""
 
 #: 
 msgid "Attainment Scale"
@@ -4694,7 +4694,7 @@ msgstr ""
 
 #: 
 msgid "Enter Marks"
-msgstr "Enter Grades"
+msgstr ""
 
 #: 
 msgid "View Linked Lesson"
@@ -4710,7 +4710,7 @@ msgstr ""
 
 #: 
 msgid "Unmarked"
-msgstr "Ungraded"
+msgstr ""
 
 #: 
 msgid "Download more information"
@@ -4774,7 +4774,7 @@ msgstr ""
 
 #: 
 msgid "Mark Rubric"
-msgstr "Grade Rubric"
+msgstr ""
 
 #: 
 msgid "This column is part of a set of columns, and so cannot be individually deleted."
@@ -4798,7 +4798,7 @@ msgstr ""
 
 #: 
 msgid "Marks"
-msgstr "Grades"
+msgstr ""
 
 #: 
 msgid "To see more detail on an item (such as a comment or a grade), hover your mouse over it."
@@ -4806,7 +4806,7 @@ msgstr ""
 
 #: 
 msgid "The Baseline column is populated based on student performance in external assessments, and can be used as a reference point for the grades in the markbook."
-msgstr "The Baseline column is populated based on student performance in external assessments, and can be used as a reference point for the grades in the gradebook."
+msgstr ""
 
 #: 
 msgid "Scale"
@@ -5046,7 +5046,7 @@ msgstr ""
 
 #: 
 msgid "View Timetables"
-msgstr "View Schedules"
+msgstr ""
 
 #: 
 msgid "Years, Days & Times"
@@ -5086,7 +5086,7 @@ msgstr ""
 
 #: 
 msgid "Emergency SMS by Year Group"
-msgstr "Emergency SMS by Graduating Class"
+msgstr ""
 
 #: 
 msgid "External Assessment Data"
@@ -5110,7 +5110,7 @@ msgstr ""
 
 #: 
 msgid "Left Students"
-msgstr "Left Students"
+msgstr ""
 
 #: 
 msgid "Lending & Activity Log"
@@ -5122,7 +5122,7 @@ msgstr ""
 
 #: 
 msgid "Letters Home by Form Group"
-msgstr "Letters Home by Grade Level"
+msgstr ""
 
 #: 
 msgid "Manage Applications"
@@ -5202,11 +5202,11 @@ msgstr ""
 
 #: 
 msgid "Form Group Summary"
-msgstr "Grade Level Summary"
+msgstr ""
 
 #: 
 msgid "Form Groups Not Registered"
-msgstr "Grade Levels Not Registered"
+msgstr ""
 
 #: 
 msgid "Set Future Absence"
@@ -5282,7 +5282,7 @@ msgstr ""
 
 #: 
 msgid "View Form Groups"
-msgstr "View Grade Levels"
+msgstr ""
 
 #: 
 msgid "View Staff Profile"
@@ -5294,11 +5294,11 @@ msgstr ""
 
 #: 
 msgid "View Timetable by Person"
-msgstr "View Schedule by Person"
+msgstr ""
 
 #: 
 msgid "Work Summary by Form Group"
-msgstr "Work Summary by Grade Levels"
+msgstr ""
 
 #: 
 msgid "High"
@@ -6898,7 +6898,7 @@ msgstr ""
 
 #: 
 msgid "Form Groups"
-msgstr "Grade Levels"
+msgstr ""
 
 #: 
 msgid "School Admin"
@@ -6910,7 +6910,7 @@ msgstr ""
 
 #: 
 msgid "Timetable Admin"
-msgstr "Schedule Admin"
+msgstr ""
 
 #: 
 msgid "User Admin"
@@ -6918,7 +6918,7 @@ msgstr ""
 
 #: 
 msgid "A system for keeping track of marks"
-msgstr "A system for keeping track of grades"
+msgstr ""
 
 #: 
 msgid "Allow users to update their family's data"
@@ -6954,7 +6954,7 @@ msgstr ""
 
 #: 
 msgid "Allows users to view a listing of form groups"
-msgstr "Allows users to view a listing of grade levels"
+msgstr ""
 
 #: 
 msgid "Allows users to view staff information"
@@ -6966,7 +6966,7 @@ msgstr ""
 
 #: 
 msgid "Allows users to view timetables"
-msgstr "Allows users to view schedules"
+msgstr ""
 
 #: 
 msgid "Facilitates tracking of student performance in external examinations."
@@ -6986,7 +6986,7 @@ msgstr ""
 
 #: 
 msgid "Timetable administration"
-msgstr "Schedule administration"
+msgstr ""
 
 #: 
 msgid "Tracking Student Behaviour"
@@ -8442,11 +8442,11 @@ msgstr ""
 
 #: 
 msgid "Markbook Type"
-msgstr "Gradebook Type"
+msgstr ""
 
 #: 
 msgid "Maximum Activities per Term"
-msgstr "Maximum Activities per Marking Period"
+msgstr ""
 
 #: 
 msgid "Nationality"
@@ -8514,7 +8514,7 @@ msgstr ""
 
 #: 
 msgid "Primary External Assessment By Year Group"
-msgstr "Primary External Assessment By Graduating Class"
+msgstr ""
 
 #: 
 msgid "Privacy Blurb"
@@ -8742,7 +8742,7 @@ msgstr ""
 
 #: 
 msgid "Comma-separated list of types to make available in the Markbook."
-msgstr "Comma-separated list of types to make available in the Gradebook."
+msgstr ""
 
 #: 
 msgid "Comma-seperated list of the different activity types available in school. Leave blank to disalbe this feature."
@@ -8854,11 +8854,11 @@ msgstr ""
 
 #: 
 msgid "Should activities be organised around dates (flexible) or terms (easy)?"
-msgstr "Should activities be organized around dates (flexible) or marking periods (easy)?"
+msgstr ""
 
 #: 
 msgid "Should markbook warnings be based on personal targets, if they are available?"
-msgstr "Should gradebook warnings be based on personal targets, if they are available?"
+msgstr ""
 
 #: 
 msgid "Should parent acceptance email be turned on or off by default."
@@ -9014,7 +9014,7 @@ msgstr ""
 
 #: 
 msgid "The most a student can sign up for in one term. Set to 0 for unlimited."
-msgstr "The most a student can sign up for in one marking period. Set to 0 for unlimited."
+msgstr ""
 
 #: 
 msgid "The purpose of this installation of Gibbon"
@@ -9058,15 +9058,15 @@ msgstr ""
 
 #: 
 msgid "Year 10"
-msgstr "10th Grade"
+msgstr ""
 
 #: 
 msgid "Year 11"
-msgstr "11th Grade"
+msgstr ""
 
 #: 
 msgid "Year 12"
-msgstr "12th Grade"
+msgstr ""
 
 #: 
 msgid "Year 13"
@@ -9074,39 +9074,39 @@ msgstr ""
 
 #: 
 msgid "Year 7"
-msgstr "7th Grade"
+msgstr ""
 
 #: 
 msgid "Year 8"
-msgstr "8th Grade"
+msgstr ""
 
 #: 
 msgid "Year 9"
-msgstr "9th Grade"
+msgstr ""
 
 #: 
 msgid "Y07"
-msgstr "9th"
+msgstr ""
 
 #: 
 msgid "Y08"
-msgstr "8th"
+msgstr ""
 
 #: 
 msgid "Y09"
-msgstr "9th"
+msgstr ""
 
 #: 
 msgid "Y10"
-msgstr "10th"
+msgstr ""
 
 #: 
 msgid "Y11"
-msgstr "11th"
+msgstr ""
 
 #: 
 msgid "Y12"
-msgstr "12th"
+msgstr ""
 
 #: 
 msgid "Y13"
@@ -9262,7 +9262,7 @@ msgstr ""
 
 #: 
 msgid "Take Attendance by Form Group"
-msgstr "Take Attendance by Grade Level"
+msgstr ""
 
 #: 
 msgid "School is closed on the specified date, and so attendance information cannot be recorded."
@@ -9358,7 +9358,7 @@ msgstr ""
 
 #: 
 msgid "All form groups have been registered."
-msgstr "All grade levels have been registered."
+msgstr ""
 
 #: 
 msgid "Choose"
@@ -9810,11 +9810,11 @@ msgstr ""
 
 #: 
 msgid "All Enrolled Students by Form Group"
-msgstr "All Enrolled Students by Grade Level"
+msgstr "All Enrolled Students by Form Group"
 
 #: 
 msgid "Students by Form Groups"
-msgstr "Students by Grade Levels"
+msgstr ""
 
 #: 
 msgid "All Enrolled Students by Alphabet"
@@ -10162,7 +10162,7 @@ msgstr ""
 
 #: 
 msgid "Students By Form Group"
-msgstr "Students By Grade Level"
+msgstr ""
 
 #: 
 msgid "Renew Item"
@@ -10486,7 +10486,7 @@ msgstr ""
 
 #: 
 msgid "Select Year Groups"
-msgstr "Select Graduating Classes"
+msgstr ""
 
 #: 
 msgid "Tutees and tutors."
@@ -10494,7 +10494,7 @@ msgstr ""
 
 #: 
 msgid "Select Form Groups"
-msgstr "Select Grade Levels"
+msgstr ""
 
 #: 
 msgid "Members of a course of study."
@@ -10790,7 +10790,7 @@ msgstr ""
 
 #: 
 msgid "Create Markbook Column?"
-msgstr "Create Gradebook Column?"
+msgstr ""
 
 #: 
 msgid "Linked to this lesson by default."
@@ -10870,7 +10870,7 @@ msgstr ""
 
 #: 
 msgid "Duplicate Markbook Columns?"
-msgstr "Duplicate Gradebook Columns?"
+msgstr ""
 
 #: 
 msgid "Will duplicate any columns linked to this lesson."
@@ -10964,7 +10964,7 @@ msgstr ""
 
 #: 
 msgid "Linked Markbook"
-msgstr "Linked Gradebook"
+msgstr ""
 
 #: 
 msgid "Includes student data & teacher's notes"
@@ -11060,7 +11060,7 @@ msgstr ""
 
 #: 
 msgid "This report draws data from the Markbook, Planner and Behaviour modules to give an overview of student performance and work completion. It only counts Online Submission data when submission is set to Required."
-msgstr "This report draws data from the Gradebook, Planner and Behavior modules to give an overview of student performance and work completion. It only counts Online Submission data when submission is set to Required."
+msgstr ""
 
 #: 
 msgid "Satisfactory"
@@ -11416,7 +11416,7 @@ msgstr ""
 
 #: 
 msgid "All Form Groups"
-msgstr "All Grade Levels"
+msgstr ""
 
 #: 
 msgid "This report allows a user to select a range of students and check whether or not they have had their personal and medical data updated after a specified date."
@@ -11516,7 +11516,7 @@ msgstr ""
 
 #: 
 msgid "Year/Roll"
-msgstr "Grade"
+msgstr ""
 
 #: 
 msgid "Choose Options"
@@ -11668,7 +11668,7 @@ msgstr ""
 
 #: 
 msgid "Timetable Chooser"
-msgstr "Schedule Chooser"
+msgstr ""
 
 #: 
 msgid "Last Week"
@@ -11704,7 +11704,7 @@ msgstr ""
 
 #: 
 msgid "Application ID, preferred, surname, payment transaction ID"
-msgstr "Application ID, preferred, last name, payment transaction ID"
+msgstr ""
 
 #: 
 msgid "Payment Token:"
@@ -11724,19 +11724,19 @@ msgstr ""
 
 #: 
 msgid "Edit Markbook_everything"
-msgstr "Edit Gradebook_everything"
+msgstr ""
 
 #: 
 msgid "Edit Markbook_multipleClassesAcrossSchool"
-msgstr "Edit Gradebook_multipleClassesAcrossSchool"
+msgstr ""
 
 #: 
 msgid "Edit Markbook_multipleClassesInDepartment"
-msgstr "Edit Gradebook_multipleClassesInDepartment"
+msgstr ""
 
 #: 
 msgid "Edit Markbook_singleClass"
-msgstr "Edit Gradebook_singleClass"
+msgstr ""
 
 #: 
 msgid "External Assessment Data_manage"
@@ -11964,11 +11964,11 @@ msgstr ""
 
 #: 
 msgid "View Markbook_allClassesAllData"
-msgstr "View Gradebook_allClassesAllData"
+msgstr ""
 
 #: 
 msgid "View Markbook_myMarks"
-msgstr "View Gradebook_myGrades"
+msgstr ""
 
 #: 
 msgid "View Staff Profile_brief"
@@ -12000,7 +12000,7 @@ msgstr ""
 
 #: 
 msgid "A report showing all the students who have left within a specified date range."
-msgstr "A report showing all the students who have left within a specified date range."
+msgstr ""
 
 #: 
 msgid "Add, edit and delete external assessments."
@@ -12008,11 +12008,11 @@ msgstr ""
 
 #: 
 msgid "Allow admins to create and manage timetables"
-msgstr "Allow admins to create and manage schedules"
+msgstr ""
 
 #: 
 msgid "Allow admins to manage timetable columns"
-msgstr "Allow admins to manage schedule columns"
+msgstr ""
 
 #: 
 msgid "Allow users to view assessment data for all students"
@@ -12044,7 +12044,7 @@ msgstr ""
 
 #: 
 msgid "Allows admins to place timetable days into the school calendar"
-msgstr "Allows admins to place schedule days into the school calendar"
+msgstr ""
 
 #: 
 msgid "Allows admins to process data update requests for medical data"
@@ -12220,15 +12220,15 @@ msgstr ""
 
 #: 
 msgid "Bulk email to any of my form groups"
-msgstr "Bulk email to any of my grade levels"
+msgstr ""
 
 #: 
 msgid "Bulk email to any form group"
-msgstr "Bulk email to any grade level"
+msgstr ""
 
 #: 
 msgid "Bulk email to any year group"
-msgstr "Bulk email to any graduating class"
+msgstr ""
 
 #: 
 msgid "Bulk email to applicants by intended school year of entry"
@@ -12256,7 +12256,7 @@ msgstr ""
 
 #: 
 msgid "Configure options for the Markbook module"
-msgstr "Configure options for the Gradebook module"
+msgstr ""
 
 #: 
 msgid "Configure settings relating to user management."
@@ -12332,7 +12332,7 @@ msgstr ""
 
 #: 
 msgid "Include parents in messages posted to year group"
-msgstr "Include parents in messages posted to graduating class"
+msgstr ""
 
 #: 
 msgid "Main system settings"
@@ -12424,7 +12424,7 @@ msgstr ""
 
 #: 
 msgid "Output all parental first mobile numbers by year group: if there are no details, then show emergency details."
-msgstr "Output all parental first mobile numbers by graduating class: if there are no details, then show emergency details."
+msgstr ""
 
 #: 
 msgid "Print a report of all attendance data in the current school year for a student"
@@ -12436,7 +12436,7 @@ msgstr "Print a report of all attendance data in the current school year for my 
 
 #: 
 msgid "Print a report of form groups who have not been registered on a given day"
-msgstr "Print a report of grade levels who have not been registered on a given day"
+msgstr ""
 
 #: 
 msgid "Print a report of students who are not physically on the school campus on a given day"
@@ -12460,15 +12460,15 @@ msgstr ""
 
 #: 
 msgid "Print form group lists showing count of various activity types"
-msgstr "Print grade level lists showing count of various activity types"
+msgstr ""
 
 #: 
 msgid "Print student form group lists"
-msgstr "Print student grade level lists"
+msgstr ""
 
 #: 
 msgid "Print work summary statistical data by form group"
-msgstr "Print work summary statistical data by grade level"
+msgstr ""
 
 #: 
 msgid "Provides an summary overview of items in the catalog."
@@ -12500,7 +12500,7 @@ msgstr ""
 
 #: 
 msgid "Show students in form group, less those with an older sibling, so that letters can be carried home by oldest in family."
-msgstr "Show students in grade level, less those with an older sibling, so that letters can be carried home by oldest in family."
+msgstr ""
 
 #: 
 msgid "Shows privacy options selected, for those students with a selection made."
@@ -12512,7 +12512,7 @@ msgstr ""
 
 #: 
 msgid "Summarises gender and number of students across all form groups."
-msgstr "Summarizes gender and number of students across all grade levels."
+msgstr "Summarizes gender and number of students across all form groups."
 
 #: 
 msgid "Summarises gender, age and school year"
@@ -12524,7 +12524,7 @@ msgstr ""
 
 #: 
 msgid "Take attendance, one form group at a time"
-msgstr "Take attendance, one grade level at a time"
+msgstr ""
 
 #: 
 msgid "Update Gibbon to a new version"
@@ -12532,11 +12532,11 @@ msgstr ""
 
 #: 
 msgid "View a brief profile of form groups in school."
-msgstr "View a brief profile of grade levels in school."
+msgstr ""
 
 #: 
 msgid "View all markbook information for all users"
-msgstr "View all gradebook information for all users"
+msgstr ""
 
 #: 
 msgid "View all outcomes in the school"
@@ -12560,7 +12560,7 @@ msgstr ""
 
 #: 
 msgid "View all rubrics in the school, except students who can only view those for own year group."
-msgstr "View all rubrics in the school, except students who can only view those for own graduating class."
+msgstr ""
 
 #: 
 msgid "View all student activity choices in the current year for a given student"
@@ -12604,23 +12604,23 @@ msgstr ""
 
 #: 
 msgid "View space usage according to the timetable"
-msgstr "View space usage according to the schedule"
+msgstr ""
 
 #: 
 msgid "View spread of enrolment over terms and days by form group"
-msgstr "View spread of enrollment over marking periods and days by grade level"
+msgstr ""
 
 #: 
 msgid "View unassigned rooms by timetable."
-msgstr "View unassigned rooms by schedule."
+msgstr ""
 
 #: 
 msgid "View unassigned teachers by timetable."
-msgstr "View unassigned teachers by schedule."
+msgstr ""
 
 #: 
 msgid "View your own marks"
-msgstr "View your own grades"
+msgstr ""
 
 #: 
 msgid "Highest level of severity, requiring intense and immediate readiness, action, individual support or differentiation."
@@ -13016,7 +13016,7 @@ msgstr "This report shows responses to the weekly summary email, organized by ca
 
 #: 
 msgid "Choose Form Group & Week"
-msgstr "Choose Grade Level & Week"
+msgstr ""
 
 #: 
 msgid "Calendar Week"
@@ -13188,11 +13188,11 @@ msgstr ""
 
 #: 
 msgid "Allows a user to create and manage one-off location changes for all classes within the timetable."
-msgstr "Allows a user to create and manage one-off location changes for all classes within the schedule."
+msgstr ""
 
 #: 
 msgid "Allows a user to create and manage one-off location changes for their own classes within the timetable."
-msgstr "Allows a user to create and manage one-off location changes for their own classes within the schedule."
+msgstr ""
 
 #: 
 msgid "Attainment Alternative Name"
@@ -13220,19 +13220,19 @@ msgstr ""
 
 #: 
 msgid "A name to use instead of \"Attainment\" in the first grade column of the markbook."
-msgstr "A name to use instead of \"Attainment\" in the first grade column of the gradebook."
+msgstr ""
 
 #: 
 msgid "A name to use instead of \"Effort\" in the second grade column of the markbook."
-msgstr "A name to use instead of \"Effort\" in the second grade column of the gradebook."
+msgstr ""
 
 #: 
 msgid "A short name to use instead of \"Attainment\" in the first grade column of the markbook."
-msgstr "A short name to use instead of \"Attainment\" in the first grade column of the gradebook."
+msgstr ""
 
 #: 
 msgid "A short name to use instead of \"Effort\" in the second grade column of the markbook."
-msgstr "A short name to use instead of \"Effort\" in the second grade column of the gradebook."
+msgstr ""
 
 #: 
 msgid "Comma-separated list of agreements that students might be asked to sign in school (e.g. ICT Policy)."
@@ -13312,11 +13312,11 @@ msgstr ""
 
 #: 
 msgid "This page allows you to create and manage one-off location changes within any class in the timetable. Only current and future changes are shown: past changes are hidden."
-msgstr "This page allows you to create and manage one-off location changes within any class in the schedule. Only current and future changes are shown: past changes are hidden."
+msgstr ""
 
 #: 
 msgid "This page allows you to create and manage one-off location changes within any of your classes in the timetable. Only current and future changes are shown: past changes are hidden."
-msgstr "This page allows you to create and manage one-off location changes within any of your classes in the schedule. Only current and future changes are shown: past changes are hidden."
+msgstr ""
 
 #: 
 msgid "Step 1 - Choose Class"
@@ -13452,11 +13452,11 @@ msgstr ""
 
 #: 
 msgid "All form groups have been registered today (%1$s)."
-msgstr "All grade levels have been registered today (%1$s)."
+msgstr ""
 
 #: 
 msgid "%1$s form groups have not been registered today  (%2$s)."
-msgstr "%1$s grade levels have not been registered today  (%2$s)."
+msgstr ""
 
 #: 
 msgid "Add Multiple"
@@ -13552,7 +13552,7 @@ msgstr ""
 
 #: 
 msgid "Only enables timetable integration when logging in via Google."
-msgstr "Only enables schedule integration when logging in via Google."
+msgstr ""
 
 #: 
 msgid "{count} days until {name}'s birthday!"
@@ -13582,7 +13582,7 @@ msgstr ""
 
 #: 
 msgid "To multi-add a single timetable day to multiple dates, use the checkboxes in the relevant dates, and then press the Submit button at the bottom of the page."
-msgstr "To multi-add a single schedule day to multiple dates, use the checkboxes in the relevant dates, and then press the Submit button at the bottom of the page."
+msgstr ""
 
 #: 
 msgid "Multi Add"
@@ -13670,7 +13670,7 @@ msgstr ""
 
 #: 
 msgid "Google Calendar ID for your school calendar. Only enables timetable integration when logging in via Google."
-msgstr "Google Calendar ID for your school calendar. Only enables schedule integration when logging in via Google."
+msgstr ""
 
 #: 
 msgid "Message bubble background colour in RGBA (e.g. 100,100,100,0.50). If blank, theme default will be used."
@@ -13966,7 +13966,7 @@ msgstr ""
 
 #: 
 msgid "Mark"
-msgstr "Grade"
+msgstr ""
 
 #: 
 msgid "Tasks"
@@ -14046,7 +14046,7 @@ msgstr ""
 
 #: 
 msgid "Allows users to view timetables in all school years."
-msgstr "Allows users to view schedules in all school years."
+msgstr ""
 
 #: 
 msgid "Determines who can approve expense requests, in accordance to the Expense Approval Type setting in School Admin."
@@ -14598,7 +14598,7 @@ msgstr ""
 
 #: 
 msgid "You do not have permission to access this timetable at this time."
-msgstr "You do not have permission to access this schedule at this time."
+msgstr ""
 
 #: 
 msgid "Pending Approval"
@@ -15034,7 +15034,7 @@ msgstr ""
 
 #: 
 msgid "Relevant student year groups"
-msgstr "Relevant student graduating classes"
+msgstr ""
 
 #: 
 msgid "Your request was completed successfully, but the target class is in another year, so you cannot see the results here."
@@ -15082,11 +15082,11 @@ msgstr ""
 
 #: 
 msgid "View Master Timetable"
-msgstr "View Master Schedule"
+msgstr ""
 
 #: 
 msgid "Choose Timetable"
-msgstr "Choose Schedule"
+msgstr ""
 
 #: 
 msgid "May be used to adjust arrangement of courses in reports."
@@ -15138,7 +15138,7 @@ msgstr ""
 
 #: 
 msgid "The chart below shows Years and Terms along the X axis, and mean Markbook grades, converted to a 0-1 scale, on the Y axis."
-msgstr "The chart below shows Years and Marking Periods along the X axis, and mean Gradebook grades, converted to a 0-1 scale, on the Y axis."
+msgstr ""
 
 #: 
 msgid "There are less than 4 data points, so no graph can be produced."
@@ -15382,11 +15382,11 @@ msgstr ""
 
 #: 
 msgid "Attendance By Form Group"
-msgstr "Attendance By Grade Level"
+msgstr ""
 
 #: 
 msgid "A student (%1$s) in your form group has received a behaviour letter."
-msgstr "A student (%1$s) in your grade level has received a behavior letter."
+msgstr "A student (%1$s) in your form group has received a behavior letter."
 
 #: 
 msgid "Behaviour Letter for %1$s via %2$s at %3$s"
@@ -15442,7 +15442,7 @@ msgstr "Behavior Tracking"
 
 #: 
 msgid "Edit Timetables"
-msgstr "Edit Schedules"
+msgstr ""
 
 #: 
 msgid "Visualise"
@@ -15486,7 +15486,7 @@ msgstr ""
 
 #: 
 msgid "Allows a user to see all days, periods, teachers and rooms in a timetable."
-msgstr "Allows a user to see all days, periods, teachers and rooms in a schedule."
+msgstr ""
 
 #: 
 msgid "Allows a user to see progress tracking graphs for all students in school."
@@ -15542,7 +15542,7 @@ msgstr ""
 
 #: 
 msgid "Provides visual graphing of student progress, as recorded in the Markbook and Internal Assessment."
-msgstr "Provides visual graphing of student progress, as recorded in the Gradebook and Internal Assessment."
+msgstr ""
 
 #: 
 msgid "Admissions Administrator"
@@ -15822,7 +15822,7 @@ msgstr ""
 
 #: 
 msgid "Can item be booked via Facility Booking in Timetable? Useful for laptop carts, etc."
-msgstr "Can item be booked via Facility Booking in Schedule? Useful for laptop carts, etc."
+msgstr ""
 
 #: 
 msgid "Plan Replacement?"
@@ -16030,7 +16030,7 @@ msgstr ""
 
 #: 
 msgid "Application ID, preferred, surname"
-msgstr "Application ID, preferred, last name"
+msgstr ""
 
 #: 
 msgid "Applicant"
@@ -16058,7 +16058,7 @@ msgstr ""
 
 #: 
 msgid "Create a timetable for the applicant."
-msgstr "Create a schedule for the applicant."
+msgstr ""
 
 #: 
 msgid "New Staff Member Email & Website"
@@ -16378,7 +16378,7 @@ msgstr ""
 
 #: 
 msgid "View Timetable by Facility"
-msgstr "View Schedule by Facility"
+msgstr ""
 
 #: 
 msgid "Choose A Facility"
@@ -16622,11 +16622,11 @@ msgstr ""
 
 #: 
 msgid "Manage markbook weightings for a single class at a time."
-msgstr "Manage gradebook weightings for a single class at a time."
+msgstr ""
 
 #: 
 msgid "Manage markbook weightings for any class."
-msgstr "Manage gradebook weightings for any class."
+msgstr ""
 
 #: 
 msgid "Record student attendance for activities."
@@ -16654,7 +16654,7 @@ msgstr ""
 
 #: 
 msgid "Enable Raw Attainment Marks"
-msgstr "Enable Raw Attainment Grades"
+msgstr ""
 
 #: 
 msgid "FacilityTypes"
@@ -16666,7 +16666,7 @@ msgstr ""
 
 #: 
 msgid "Group Columns by Term"
-msgstr "Group Columns by Marking Period"
+msgstr ""
 
 #: 
 msgid "Human Resources Administrator"
@@ -16750,15 +16750,15 @@ msgstr ""
 
 #: 
 msgid "Should column weighting and total scores be enabled in the Markbook?"
-msgstr "Should column weighting and total scores be enabled in the Gradebook?"
+msgstr ""
 
 #: 
 msgid "Should columns and total scores be grouped by term?"
-msgstr "Should columns and total scores be grouped by marking period?"
+msgstr ""
 
 #: 
 msgid "Should recording of raw marks be enabled in the Markbook?"
-msgstr "Should recording of raw grades be enabled in the Gradebook?"
+msgstr ""
 
 #: 
 msgid "Text to appear with the Special Educational Needs section of the student application form."
@@ -16782,7 +16782,7 @@ msgstr ""
 
 #: 
 msgid "Per Term"
-msgstr "Per Marking Period"
+msgstr ""
 
 #: 
 msgid "Whole Year"
@@ -16790,23 +16790,23 @@ msgstr ""
 
 #: 
 msgid "Term Date"
-msgstr "Marking Period Date"
+msgstr ""
 
 #: 
 msgid "Attainment Total Mark"
-msgstr "Attainment Total Grade"
+msgstr ""
 
 #: 
 msgid "Leave blank to omit raw marks."
-msgstr "Leave blank to omit raw grades."
+msgstr ""
 
 #: 
 msgid "Press enter when recording marks to jump to the next student. Attainment values with a percentage grade scale will be calculated automatically. You can override the automatic value by selecting a different grade."
-msgstr "Press enter when recording grades to jump to the next student. Attainment values with a percentage grade scale will be calculated automatically. You can override the automatic value by selecting a different grade."
+msgstr ""
 
 #: 
 msgid "Raw Attainment Mark"
-msgstr "Raw Attainment Grade"
+msgstr ""
 
 #: 
 msgid "Weightings"
@@ -16814,7 +16814,7 @@ msgstr ""
 
 #: 
 msgid "All Terms"
-msgstr "All Marking Periods"
+msgstr ""
 
 #: 
 msgid "Assigned on "
@@ -16838,7 +16838,7 @@ msgstr ""
 
 #: 
 msgid "Raw Marks"
-msgstr "Raw Grades"
+msgstr ""
 
 #: 
 msgid "out of"
@@ -16858,7 +16858,7 @@ msgstr ""
 
 #: 
 msgid "Marked"
-msgstr "Graded"
+msgstr ""
 
 #: 
 msgid "Manage Weighting"
@@ -16866,7 +16866,7 @@ msgstr ""
 
 #: 
 msgid "Markbook Weightings"
-msgstr "Gradebook Weightings"
+msgstr ""
 
 #: 
 msgid "Percent of"
@@ -16890,7 +16890,7 @@ msgstr ""
 
 #: 
 msgid "Add Markbook Weighting"
-msgstr "Add Gradebook Weighting"
+msgstr ""
 
 #: 
 msgid "Percent: 0 to 100"
@@ -16898,11 +16898,11 @@ msgstr ""
 
 #: 
 msgid "Delete Markbook Weighting"
-msgstr "Delete Gradebook Weighting"
+msgstr ""
 
 #: 
 msgid "Edit Markbook Weighting"
-msgstr "Edit Gradebook Weighting"
+msgstr ""
 
 #: 
 msgid "Attendance Status"
@@ -17082,7 +17082,7 @@ msgstr ""
 
 #: 
 msgid "Attendance taking has been disabled for this form group."
-msgstr "Attendance taking has been disabled for this grade level."
+msgstr ""
 
 #: 
 msgid "Classes Not Registered"
@@ -17134,7 +17134,7 @@ msgstr ""
 
 #: 
 msgid "Copy Markbook Columns"
-msgstr "Copy Gradebook Columns"
+msgstr ""
 
 #: 
 msgid "Copy from"
@@ -17266,7 +17266,7 @@ msgstr ""
 
 #: 
 msgid "Up to 3 per form group."
-msgstr "Up to 3 per grade level."
+msgstr ""
 
 #: 
 msgid "Track Attendance?"
@@ -17286,7 +17286,7 @@ msgstr ""
 
 #: 
 msgid "A warning has been issued for a student (%1$s) in your form group, pending a behaviour letter."
-msgstr "A warning has been issued for a student (%1$s) in your grade level, pending a behavior letter."
+msgstr "A warning has been issued for a student (%1$s) in your form group, pending a behavior letter."
 
 #: 
 msgid "A warning has been issued for a student (%1$s) in one of your classes, pending a behaviour letter."
@@ -17394,7 +17394,7 @@ msgstr ""
 
 #: 
 msgid "View attendance, by form group and class"
-msgstr "View attendance, by grade level and class"
+msgstr ""
 
 #: 
 msgid "View full profile of any student in the school, without access to Notes."
@@ -17422,7 +17422,7 @@ msgstr ""
 
 #: 
 msgid "Enable Notifications by Form Group"
-msgstr "Enable Notifications by Grade Level"
+msgstr ""
 
 #: 
 msgid "Enable Rubrics"
@@ -17574,7 +17574,7 @@ msgstr ""
 
 #: 
 msgid "Send the school-wide daily attendance report to additional users. Restricted to roles with permission to access Form Groups Not Registered or Classes Not Registered."
-msgstr "Send the school-wide daily attendance report to additional users. Restricted to roles with permission to access Grade Level Not Registered or Classes Not Registered."
+msgstr ""
 
 #: 
 msgid "Set the hostname of the mail server."
@@ -17674,7 +17674,7 @@ msgstr ""
 
 #: 
 msgid "By Form Group"
-msgstr "By Grade Level"
+msgstr ""
 
 #: 
 msgid "Receipt Confirmation Text"
@@ -17886,7 +17886,7 @@ msgstr ""
 
 #: 
 msgid "Preferred, surname, username, student ID, email, phone number, vehicle registration, parent email."
-msgstr "Preferred, last name, username, student ID, email, phone number, vehicle registration, parent email."
+msgstr ""
 
 #: 
 msgid "MySQL Collation"
@@ -17934,7 +17934,7 @@ msgstr ""
 
 #: 
 msgid "Preferred, surname, username, role, student ID, email, phone number, vehicle registration"
-msgstr "Preferred, last name, username, role, student ID, email, phone number, vehicle registration"
+msgstr ""
 
 #: 
 msgid "Birth Certificate Scan"
@@ -18030,7 +18030,7 @@ msgstr "Allows an activity organizer to manage enrollment for their activities."
 
 #: 
 msgid "Allows parents to view their children's timetable"
-msgstr "Allows parents to view their children's schedule"
+msgstr ""
 
 #: 
 msgid "Allows students to self register as Present, provided they are within a certain range of IP addresses."
@@ -18042,11 +18042,11 @@ msgstr ""
 
 #: 
 msgid "Allows teachers to view their own markbook information"
-msgstr "Allows teachers to view their own gradebook information"
+msgstr ""
 
 #: 
 msgid "Allows users to view their own timetable"
-msgstr "Allows users to view their own schedule"
+msgstr ""
 
 #: 
 msgid "Manage settings for system notifications."
@@ -18066,11 +18066,11 @@ msgstr ""
 
 #: 
 msgid "Default Form Group Attendance Type"
-msgstr "Default Grade Level Attendance Type"
+msgstr ""
 
 #: 
 msgid "Enable Display Cumulative Marks"
-msgstr "Enable Display Cumulative Grades"
+msgstr ""
 
 #: 
 msgid "High Academic Alert Threshold"
@@ -18142,7 +18142,7 @@ msgstr ""
 
 #: 
 msgid "Should cumulative marks be displayed on the View Markbook page for Students and Parents and in Student Profiles?"
-msgstr "Should cumulative grades be displayed on the View Gradebook page for Students and Parents and in Student Profiles?"
+msgstr ""
 
 #: 
 msgid "Should the Payment section be turned on?"
@@ -18162,7 +18162,7 @@ msgstr ""
 
 #: 
 msgid "The default selection for attendance type when taking Form Group attendance"
-msgstr "The default selection for attendance type when taking Grade Level attendance"
+msgstr ""
 
 #: 
 msgid "The number of Behaviour concerns needed in the past 60 days to raise a high level alert on a student."
@@ -18222,7 +18222,7 @@ msgstr ""
 
 #: 
 msgid "Total Mark"
-msgstr "Total Grade"
+msgstr ""
 
 #: 
 msgid "Class Average"
@@ -18238,7 +18238,7 @@ msgstr ""
 
 #: 
 msgid "This report shows all students who left the school during the current academic year."
-msgstr "This report shows all students who left the school during the current academic year."
+msgstr ""
 
 #: 
 msgid "%1$s has added a student note (\"%2$s\") about %3$s."
@@ -18254,7 +18254,7 @@ msgstr ""
 
 #: 
 msgid "Timetable Day Short Name"
-msgstr "Schedule Day Short Name"
+msgstr ""
 
 #: 
 msgid "Student has a %1$s alert for academic concern over the past 60 days."
@@ -18294,7 +18294,7 @@ msgstr "Allows users to map enrollments from homerooms to classes."
 
 #: 
 msgid "View a report of student houses by year group."
-msgstr "View a report of student houses by graduating class."
+msgstr ""
 
 #: 
 msgid "Audio/Visual Hardware"
@@ -18382,7 +18382,7 @@ msgstr ""
 
 #: 
 msgid "Parent Weekly Email Summary Include Markbook"
-msgstr "Parent Weekly Email Summary Include Gradebook"
+msgstr ""
 
 #: 
 msgid "Unique Email Address"
@@ -18402,19 +18402,19 @@ msgstr "Should auto-enrollment of new students into courses be turned on or off 
 
 #: 
 msgid "Should Markbook information be included in the weekly planner email summary that goes out to parents?"
-msgstr "Should Gradebook information be included in the weekly planner email summary that goes out to parents?"
+msgstr ""
 
 #: 
 msgid "The number of Markbook concerns needed in the past 60 days to raise a high level academic alert on a student."
-msgstr "The number of Gradebook concerns needed in the past 60 days to raise a high level academic alert on a student."
+msgstr ""
 
 #: 
 msgid "The number of Markbook concerns needed in the past 60 days to raise a low level academic alert on a student."
-msgstr "The number of Gradebook concerns needed in the past 60 days to raise a low level academic alert on a student."
+msgstr ""
 
 #: 
 msgid "The number of Markbook concerns needed in the past 60 days to raise a medium level academic alert on a student."
-msgstr "The number of Gradebook concerns needed in the past 60 days to raise a medium level academic alert on a student."
+msgstr ""
 
 #: 
 msgid "Which school years should be available to apply to?"
@@ -18422,7 +18422,7 @@ msgstr ""
 
 #: 
 msgid "This class is not timetabled to run on the specified date. Attendance may still be taken for this group however it currently falls outside the regular schedule for this class."
-msgstr "This class is not scheduled to run on the specified date. Attendance may still be taken for this group however it currently falls outside the regular schedule for this class."
+msgstr ""
 
 #: 
 msgid "%1$s Class Absent"
@@ -18466,7 +18466,7 @@ msgstr ""
 
 #: 
 msgid "Students year groups which may participate"
-msgstr "Students graduating classes which may participate"
+msgstr ""
 
 #: 
 msgid "Add Another Resource"
@@ -18598,7 +18598,7 @@ msgstr ""
 
 #: 
 msgid "Form Group"
-msgstr "Grade Level"
+msgstr ""
 
 #: 
 msgid "Re-Enrol"
@@ -18658,7 +18658,7 @@ msgstr ""
 
 #: 
 msgid "These settings allow a particular type of external assessment to be associated with each year group. The selected assessment will be used as the primary assessment to be used as a baseline for comparison (for example, within the Markbook). You are required to select a particular field category from which to draw data (if no category is chosen, the data will not be saved)."
-msgstr "These settings allow a particular type of external assessment to be associated with each graduating class. The selected assessment will be used as the primary assessment to be used as a baseline for comparison (for example, within the Gradebook). You are required to select a particular field category from which to draw data (if no category is chosen, the data will not be saved)."
+msgstr ""
 
 #: 
 msgid "Pre-Fills & Defaults"
@@ -18678,11 +18678,11 @@ msgstr ""
 
 #: 
 msgid "Balance by Year Group?"
-msgstr "Balance by Graduating Class?"
+msgstr ""
 
 #: 
 msgid "Attempts to keep houses be as balanced as possible per year group, otherwise balances the house numbers school-wide."
-msgstr "Attempts to keep houses be as balanced as possible per graduating class, otherwise balances the house numbers school-wide."
+msgstr ""
 
 #: 
 msgid "Overwrite"
@@ -18750,7 +18750,7 @@ msgstr ""
 
 #: 
 msgid "Automatically enrol student in classes for Form Group."
-msgstr "Automatically enroll student in classes for grade level."
+msgstr "Automatically enroll student in classes for Form Group."
 
 #: 
 msgid "Student could not be automatically enrolled in courses, so this will have to be done manually at a later date."
@@ -18758,7 +18758,7 @@ msgstr ""
 
 #: 
 msgid "The student has automatically been enrolled in courses for their Form Group."
-msgstr "The student has automatically been enrolled in courses for their grade level."
+msgstr "The student has automatically been enrolled in courses for their Form Group."
 
 #: 
 msgid "Please feel free to reply to this email should you have any questions.<br/><br/>%1$s,<br/><br/>%2$s Admissions Administrator"
@@ -18790,11 +18790,11 @@ msgstr "Auto-Enroll Courses?"
 
 #: 
 msgid "Should this student be automatically enrolled in courses for their Form Group?"
-msgstr "Should this student be automatically enrolled in courses for their grade level?"
+msgstr "Should this student be automatically enrolled in courses for their Form Group?"
 
 #: 
 msgid "This will replace any auto-enrolled courses if the student Form Group has changed."
-msgstr "This will replace any auto-enrolled courses if the student grade level has changed."
+msgstr "This will replace any auto-enrolled courses if the student Form Group has changed."
 
 #: 
 msgid "Prefix"
@@ -18834,7 +18834,7 @@ msgstr ""
 
 #: 
 msgid "%1$s students have been assigned to houses. These results include all student counts by house, updated year groups are highlighted in green. Hover over a number to see the balance by gender."
-msgstr "%1$s students have been assigned to houses. These results include all student counts by house, updated graduating classes are highlighted in green. Hover over a number to see the balance by gender."
+msgstr ""
 
 #: 
 msgid "1 Day"
@@ -18982,7 +18982,7 @@ msgstr ""
 
 #: 
 msgid "Syncing enrolment lets you enrol students into courses by mapping them to a Form Group and Year Group within the school. If auto-enrol is turned on, new students accepted through the application form and student enrolment process will be enrolled in courses automatically."
-msgstr "Syncing enrollment lets you enroll students into courses by mapping them to a graduating class within the school. If auto-enroll is turned on, new students accepted through the application form and student enrolment process will be enrolled in courses automatically."
+msgstr "Syncing enrollment lets you enroll students into courses by mapping them to a Form Group and Year Group within the school. If auto-enroll is turned on, new students accepted through the application form and student enrollment process will be enrolled in courses automatically."
 
 #: 
 msgid "Sync All"
@@ -19022,7 +19022,7 @@ msgstr ""
 
 #: 
 msgid "Classes will be matched to Form Groups that fit the specified pattern. Choose from %1$s. Must contain %2$s"
-msgstr "Classes will be matched to Grade Levels that fit the specified pattern. Choose from %1$s. Must contain %2$s"
+msgstr ""
 
 #: 
 msgid "Database Settings"
@@ -20810,7 +20810,7 @@ msgstr ""
 
 #: 
 msgid "Cannot record a partial absence. This student does not have timetabled classes for this day."
-msgstr "Cannot record a partial absence. This student does not have scheduled classes for this day."
+msgstr ""
 
 #: 
 msgid "Date Added"
@@ -20862,7 +20862,7 @@ msgstr ""
 
 #: 
 msgid "Activity Choices by Form Group"
-msgstr "Activity Choices by Grade Level"
+msgstr ""
 
 #: 
 msgid "Ended"
@@ -20914,7 +20914,7 @@ msgstr ""
 
 #: 
 msgid "View all student activity choices in the current year for a given form group."
-msgstr "View all student activity choices in the current year for a given grade level."
+msgstr ""
 
 #: 
 msgid "Cutoff Date"
@@ -21066,7 +21066,7 @@ msgstr ""
 
 #: 
 msgid "Head of Year"
-msgstr "Class Advisor"
+msgstr ""
 
 #: 
 msgid "Database Engine Migration"
@@ -21278,7 +21278,7 @@ msgstr ""
 
 #: 
 msgid "This report allows a user to select a range of families, with at least one child enrolled in the target year group, and check whether or not they have had their family and personal data updated after a specified date."
-msgstr "This report allows a user to select a range of families, with at least one child enrolled in the target graduating class, and check whether or not they have had their family and personal data updated after a specified date."
+msgstr ""
 
 #: 
 msgid "Hide Details?"
@@ -21306,7 +21306,7 @@ msgstr ""
 
 #: 
 msgid "Mark as Left"
-msgstr "Mark as Left"
+msgstr ""
 
 #: 
 msgid "Date End"
@@ -21314,7 +21314,7 @@ msgstr ""
 
 #: 
 msgid "Current Timetable View"
-msgstr "Current Schedule View"
+msgstr ""
 
 #: 
 msgid "The specified room does not seem to exist."
@@ -21347,14 +21347,14 @@ msgstr ""
 #: 
 msgid "Markbook Column"
 msgid_plural "Markbook Columns"
-msgstr[0] "Gradebook Column"
-msgstr[1] "Gradebook Columns"
+msgstr[0] ""
+msgstr[1] ""
 
 #: 
 msgid "Timetable Day"
 msgid_plural "Timetable Days"
-msgstr[0] "Schedule Day"
-msgstr[1] "Schedule Days"
+msgstr[0] ""
+msgstr[1] ""
 
 #: 
 msgid "Medical Form"
@@ -21410,11 +21410,11 @@ msgstr ""
 
 #: 
 msgid "View {courseClass} Markbook"
-msgstr "View {courseClass} Gradebook"
+msgstr ""
 
 #: 
 msgid "Edit {courseClass} Markbook"
-msgstr "Edit {courseClass} Gradebook"
+msgstr ""
 
 #: 
 msgid "Manage {courseClass} Weightings"
@@ -21454,7 +21454,7 @@ msgstr ""
 
 #: 
 msgid "Edit Year Group"
-msgstr "Edit Graduating Class"
+msgstr ""
 
 #: 
 msgid "Add Department"
@@ -21462,7 +21462,7 @@ msgstr ""
 
 #: 
 msgid "Calculation of cumulative marks and weightings is currently only available when using Percentage as the Default Assessment Scale. This value can be changed in System Settings."
-msgstr "Calculation of cumulative grades and weightings is currently only available when using Percentage as the Default Assessment Scale. This value can be changed in System Settings."
+msgstr ""
 
 #: 
 msgid "Import History"
@@ -21530,7 +21530,7 @@ msgstr ""
 
 #: 
 msgid "Dates are converted based on the separator used: American mm/dd/yy or mm/dd/yyyy, European dd.mm.yy, dd.mm.yyyy or dd-mm-yyyy. To avoid potential ambiguity, it's best to use ISO YYYY-MM-DD."
-msgstr "Please use format: mm/dd/yy or mm/dd/yyyy."
+msgstr ""
 
 #: 
 msgid "Export Columns"
@@ -21710,11 +21710,11 @@ msgstr ""
 
 #: 
 msgid "Attendance By Form Group_all"
-msgstr "Attendance By Grade Level_all"
+msgstr ""
 
 #: 
 msgid "Attendance By Form Group_myGroups"
-msgstr "Attendance By Grade Level_myGroups"
+msgstr ""
 
 #: 
 msgid "Enter Activity Attendance_leader"
@@ -21882,11 +21882,11 @@ msgstr ""
 
 #: 
 msgid "View Markbook_myClasses"
-msgstr "View Gradebook_myClasses"
+msgstr ""
 
 #: 
 msgid "View Markbook_viewMyChildrensClasses"
-msgstr "View Gradebook_viewMyChildrensClasses"
+msgstr ""
 
 #: 
 msgid "View Student Profile_fullNoNotes"
@@ -21898,15 +21898,15 @@ msgstr ""
 
 #: 
 msgid "View Timetable by Person_allYears"
-msgstr "View Schedule by Person_allYears"
+msgstr ""
 
 #: 
 msgid "View Timetable by Person_my"
-msgstr "View Schedule by Person_my"
+msgstr ""
 
 #: 
 msgid "View Timetable by Person_myChildren"
-msgstr "View Schedule by Person_myChildren"
+msgstr ""
 
 #: 
 msgid "Write Internal Assessments_all"
@@ -21982,7 +21982,7 @@ msgstr ""
 
 #: 
 msgid "Year group short name, as set in School Admin. Must already exist"
-msgstr "Graduating Class short name, as set in School Admin. Must already exist"
+msgstr ""
 
 #: 
 msgid "e.g. Mr, Mrs, Dr"
@@ -22018,7 +22018,7 @@ msgstr ""
 
 #: 
 msgid "Weighted average from subject-related markbook grades in the current year"
-msgstr "Weighted average from subject-related gradebook grades in the current year"
+msgstr ""
 
 #: 
 msgid "Are you sure you want to delete this record? Unsaved changes will be lost."
@@ -22046,7 +22046,7 @@ msgstr ""
 
 #: 
 msgid "This is useful for picking up students who have not yet left, but have an End Date set."
-msgstr "This is useful for picking up students who have not yet left, but have an End Date set."
+msgstr ""
 
 #: 
 msgid "This is useful for picking up students who are set to Full, have a start date but are not yet enrolled."
@@ -22062,7 +22062,7 @@ msgstr ""
 
 #: 
 msgid "Markbook_viewMyChildrensClasses"
-msgstr "Gradebook_viewMyChildrensClasses"
+msgstr ""
 
 #: 
 msgid "Sync Results"
@@ -22098,7 +22098,7 @@ msgstr ""
 
 #: 
 msgid "Include Expected and Left."
-msgstr "Include Expected and Left."
+msgstr ""
 
 #: 
 msgid "Afrikaans"
@@ -22962,7 +22962,7 @@ msgstr ""
 
 #: 
 msgid "Additional information such as year group preference, language preference, etc."
-msgstr "Additional information such as graduating class preference, language preference, etc."
+msgstr ""
 
 #: 
 msgid "Created"
@@ -23394,7 +23394,7 @@ msgstr ""
 
 #: 
 msgid "Allows Class Teachers and Heads of Year to contribute to investigations."
-msgstr "Allow Class Teachers and Class Advisors to contribute to investigations."
+msgstr ""
 
 #: 
 msgid "Allows parents to view their children's report archive."
@@ -23538,7 +23538,7 @@ msgstr ""
 
 #: 
 msgid "Enable Notifications for Form Group Tutors"
-msgstr "Enable Notifications for Grade Level Tutors"
+msgstr ""
 
 #: 
 msgid "Enable Pinned Messages on Home"
@@ -23586,7 +23586,7 @@ msgstr ""
 
 #: 
 msgid "Should the Educational Assistants for a student be notified of new behaviour records?"
-msgstr "Should the Educational Assistants for a student be notified of new behavior records?"
+msgstr ""
 
 #: 
 msgid "Should the first class attendance taken in a day have the option to record as school-wide attendance?"
@@ -23594,7 +23594,7 @@ msgstr ""
 
 #: 
 msgid "Should the Form Group Tutors of a student be notified of new behaviour records?"
-msgstr "Should the Grade Level Tutors of a student be notified of new behavior records?"
+msgstr ""
 
 #: 
 msgid "Template text to be included in the Description field of a First Aid Record."
@@ -23630,7 +23630,7 @@ msgstr ""
 
 #: 
 msgid "Year Group Summary"
-msgstr "Graduating Class Summary"
+msgstr ""
 
 #: 
 msgid "Citizenship 1 Passport Expiry Date"
@@ -23710,7 +23710,7 @@ msgstr ""
 
 #: 
 msgid "For example, via a phone call, email, Markbook, meeting or other means."
-msgstr "For example, via a phone call, email, Gradebook, meeting or other means."
+msgstr ""
 
 #: 
 msgid "Reasons why parents are not aware of the situation."
@@ -23722,7 +23722,7 @@ msgstr ""
 
 #: 
 msgid "Form Tutor Resolution"
-msgstr "Grade Tutor Resolution"
+msgstr ""
 
 #: 
 msgid "Resolvable?"
@@ -23730,7 +23730,7 @@ msgstr ""
 
 #: 
 msgid "Is form tutor able to resolve without further input? If no, further investigation will be launched."
-msgstr "Is grade tutor able to resolve without further input? If no, further investigation will be launched."
+msgstr ""
 
 #: 
 msgid "Invite Input"
@@ -23802,7 +23802,7 @@ msgstr ""
 
 #: 
 msgid "Being organised"
-msgstr "Being organized"
+msgstr ""
 
 #: 
 msgid "Monitoring, controlling and self directing aspects of learning for themselves"
@@ -23922,7 +23922,7 @@ msgstr ""
 
 #: 
 msgid "Includes Teachers, Tutors, Educational Assistants and Head of Year."
-msgstr "Includes Teachers, Tutors, Educational Assistants and Class Advisor."
+msgstr ""
 
 #: 
 msgid "Pin To Top?"
@@ -24142,7 +24142,7 @@ msgstr ""
 
 #: 
 msgid "Remark"
-msgstr "Re-Grade"
+msgstr ""
 
 #: 
 msgid "Yes/No"
@@ -24643,7 +24643,7 @@ msgstr ""
 
 #: 
 msgid "Enables admin to set a student to left and notify other users."
-msgstr "Enables admin to set a student to left and notify other users."
+msgstr ""
 
 #: 
 msgid "Enables users to browse Gibbon's event log."
@@ -24659,7 +24659,7 @@ msgstr ""
 
 #: 
 msgid "A short name to use instead of \"Effort\" in the second grade column of the markbook.."
-msgstr "A short name to use instead of \"Effort\" in the second grade column of the gradebook."
+msgstr ""
 
 #: 
 msgid "Should the referee email address field be required?"
@@ -24723,7 +24723,7 @@ msgstr ""
 
 #: 
 msgid "Set this to Left unless the student's withdraw date is in the future."
-msgstr "Set this to Left unless the student’s withdraw date is in the future."
+msgstr ""
 
 #: 
 msgid "Withdraw Note"
@@ -24735,7 +24735,7 @@ msgstr ""
 
 #: 
 msgid "Exclude Left Students"
-msgstr "Exclude Left Students"
+msgstr ""
 
 #: 
 msgid "{student} {rollGroup} has withdrawn from {school} on {date}."
@@ -25111,11 +25111,11 @@ msgstr ""
 
 #: 
 msgid "View Form Groups_all"
-msgstr "View Grade Levels_all"
+msgstr ""
 
 #: 
 msgid "View Form Groups_myChildren"
-msgstr "View Grade Levels_myChildren"
+msgstr ""
 
 #: 
 msgid "Comply with privacy regulations by flushing older, non-academic, data from the system."
@@ -25131,7 +25131,7 @@ msgstr ""
 
 #: 
 msgid "Shows the number of classes students are enroled in, organised by form group"
-msgstr "Shows the number of classes students are enrolled in, organized by grade level"
+msgstr "Shows the number of classes students are enrolled in, organized by form group"
 
 #: 
 msgid "Application Processing Fee"
@@ -25295,7 +25295,7 @@ msgstr ""
 
 #: 
 msgid "TT Period/Time"
-msgstr "Schedule Period/Time"
+msgstr ""
 
 #: 
 msgid "{homeworkName} Due Date"
@@ -25607,7 +25607,7 @@ msgstr ""
 
 #: 
 msgid "Duplication was successful, however {count} criteria did not match form groups or courses in the target school year and could not be copied."
-msgstr "Duplication was successful, however {count} criteria did not match grade levels or courses in the target school year and could not be copied."
+msgstr ""
 
 #: 
 msgid "View Online"
@@ -25796,7 +25796,7 @@ msgstr ""
 
 #: 
 msgid "Student Enrolment by Year Group"
-msgstr "Student Enrollment by Graduating Class"
+msgstr "Student Enrollment by Year Group"
 
 #: 
 msgid "In 60 Days"
@@ -25816,15 +25816,15 @@ msgstr ""
 
 #: 
 msgid "New Message_formGroups_any"
-msgstr "New Message_gradeLevels_any"
+msgstr ""
 
 #: 
 msgid "New Message_formGroups_my"
-msgstr "New Message_gradeLevels_my"
+msgstr ""
 
 #: 
 msgid "New Message_formGroups_parents"
-msgstr "New Message_gradeLevels_parents"
+msgstr ""
 
 #: 
 msgid "Personal Document Settings"
@@ -25868,7 +25868,7 @@ msgstr ""
 
 #: 
 msgid "Take attendance for a teacher's own roll groups"
-msgstr "Take attendance for a teacher's own grade levels"
+msgstr ""
 
 #: 
 msgid "View resources"
@@ -25876,7 +25876,7 @@ msgstr ""
 
 #: 
 msgid "View the form groups in which a user's children study."
-msgstr "View the grade levels in which a user's children study."
+msgstr ""
 
 #: 
 msgid "South Sudan"
@@ -26140,11 +26140,11 @@ msgstr ""
 
 #: 
 msgid "Change of Form Group"
-msgstr "Change of Grade Level"
+msgstr ""
 
 #: 
 msgid "Student's form group was changed from {formGroupFrom} to {formGroupTo} on {date}"
-msgstr "Student's grade level was changed from {formGroupFrom} to {formGroupTo} on {date}"
+msgstr ""
 
 #: 
 msgid "This report prints a summary of personal documents including passports and ID cards for the selected students."
@@ -26236,11 +26236,11 @@ msgstr ""
 
 #: 
 msgid "Not assigned to term"
-msgstr "Not assigned to marking period"
+msgstr ""
 
 #: 
 msgid "Assigned to term"
-msgstr "Assigned to marking period"
+msgstr ""
 
 #: 
 msgid "Not assigned to date range"
@@ -26252,7 +26252,7 @@ msgstr ""
 
 #: 
 msgid "All Students by Form Group"
-msgstr "All Students by Grade Level"
+msgstr ""
 
 #: 
 msgid "Absence"
@@ -26264,7 +26264,7 @@ msgstr ""
 
 #: 
 msgid "Should existing timetable days be replaced by the new ones?"
-msgstr "Should existing schedule days be replaced by the new ones?"
+msgstr ""
 
 #: 
 msgid "This help page gives a listing of all data sources, core and additional. Data sources need to be added to the front matter of a template before they are available within that template. For each data source there is a listing of all available fields. Some fields are arrays, which require a loop in the template to access the fields in that array."
@@ -26404,7 +26404,7 @@ msgstr ""
 
 #: 
 msgid "Leaving"
-msgstr "Graduating"
+msgstr ""
 
 #: 
 msgid "Student Applications"
@@ -26476,7 +26476,7 @@ msgstr ""
 
 #: 
 msgid "Row Long Name - as used in the target timetable"
-msgstr "Row Long Name - as used in the target schedule"
+msgstr ""
 
 #: 
 msgid "Space Name - the Gibbon name for the room the lesson takes place in."
@@ -26533,7 +26533,7 @@ msgstr ""
 #: 
 msgid "A warning has been issued for a student (%1$s) in your form group,\n"
 "                                     pending a behaviour letter."
-msgstr "A warning has been issued for a student (%1$s) in your grade level, pending a behavior letter."
+msgstr "A warning has been issued for a student (%1$s) in your form group, pending a behavior letter."
 
 #: 
 msgid "Allows users to take school-wide attendance for ad hoc groups of students."
@@ -26913,7 +26913,7 @@ msgstr ""
 
 #: 
 msgid "Click the timetable to view availability details."
-msgstr "Click the schedule to view availability details."
+msgstr ""
 
 #: 
 msgid "Installation failed: {reason}"
@@ -27137,15 +27137,15 @@ msgstr ""
 
 #: 
 msgid "Updated Timetable Subscriber"
-msgstr "Updated Schedule Subscriber"
+msgstr ""
 
 #: 
 msgid "Markbook Column Already Created"
-msgstr "Gradebook Column Already Created"
+msgstr ""
 
 #: 
 msgid "A Markbook column has already been created for this assignment."
-msgstr "A Gradebook column has already been created for this assignment."
+msgstr ""
 
 #: 
 msgid "active"
@@ -27325,7 +27325,7 @@ msgstr ""
 
 #: 
 msgid "Enrol the student in the selected school year (as the student has been assigned to a form group)."
-msgstr "Enroll the student in the selected school year (as the student has been assigned to a grade level)."
+msgstr "Enroll the student in the selected school year (as the student has been assigned to a form group)."
 
 #: 
 msgid "Admissions Welcome"
@@ -27461,7 +27461,7 @@ msgstr ""
 
 #: 
 msgid "The timetable {name} has been updated, please visit your timetable and export again to ensure it remains up to date."
-msgstr "The schedule {name} has been updated, please visit your schedule and export again to ensure it remains up to date."
+msgstr ""
 
 #: 
 msgid "Export to Calendar"
