@@ -25716,3 +25716,198 @@ msgstr ""
 
 msgid "Staff Duty"
 msgstr ""
+
+msgid ""
+"This page requires you to be logged in to access it. Please login and try "
+"again."
+msgstr ""
+
+msgid "First Aid Record_editAll"
+msgstr ""
+
+msgid "First Aid Record_viewOnlyAddNotes"
+msgstr ""
+
+msgid ""
+"Allows user to view first aid records and add incident notes, but not add or "
+"edit records."
+msgstr ""
+
+msgid "Allowable iFrame Sources"
+msgstr ""
+
+msgid "Follow-up Contacts"
+msgstr ""
+
+msgid "Signature Template"
+msgstr ""
+
+msgid ""
+"A comma separated list of domains that are allowed in embedded iFrames. All "
+"others will be removed from HTML content."
+msgstr ""
+
+msgid "An HTML and Twig template used to add signatures to messages."
+msgstr ""
+
+msgid "An optional list of staff to include in the follow-up contacts section."
+msgstr ""
+
+msgid "Behaviour Record for IN Student"
+msgstr ""
+
+msgid ""
+"{formGroup} was the last group to have their initial Form Group attendance "
+"taken (by {person} at {time})"
+msgstr ""
+
+msgid ""
+"This is a main catalog record. Updating it will also update {count} copies "
+"of this record."
+msgstr ""
+
+msgid "View Copies"
+msgstr ""
+
+msgid ""
+"This is a copy of catalog record {id}. Certain details can only be changed "
+"by editing the main catalog record."
+msgstr ""
+
+msgid "Edit Main Record"
+msgstr ""
+
+msgid "Make Main Record"
+msgstr ""
+
+msgid ""
+"Are you sure you wish to change this copy to the main catalog record? All "
+"other copies, including the current main record, will become copies of this "
+"record."
+msgstr ""
+
+msgid "Catalog Copy"
+msgstr ""
+
+msgid "Attach?"
+msgstr ""
+
+msgid ""
+"Attach this record to a core catalog record by ID. Certain details will be "
+"updated based on that record."
+msgstr ""
+
+msgid "Catalogue Copy"
+msgstr ""
+
+msgid ""
+"Do you want to update the name of this book? Choose cancel to update all "
+"other fields except the name."
+msgstr ""
+
+msgid "Copies Of"
+msgstr ""
+
+msgid "Potential duplicate enrolment found for user ID {user}"
+msgstr ""
+
+msgid "Signature"
+msgstr ""
+
+msgid "Follow up Request"
+msgstr ""
+
+msgid "A follow up request was sent to the selected user."
+msgstr ""
+
+msgid ""
+"If you are the student's teacher, please include details such as: the "
+"location & lesson, what lead up to the incident, what was the incident, what "
+"did you do."
+msgstr ""
+
+msgid ""
+"A first aid record has been created for {name} at {time}. Your follow-up has "
+"been requested. Please click below to view and enter details."
+msgstr ""
+
+msgid ""
+"These contacts can be used when following up on an emergency, or for less "
+"serious issues, when parents and staff need to be notified by email."
+msgstr ""
+
+msgid ""
+"If selected, this user will be notified to enter follow up details about the "
+"first aid incident."
+msgstr ""
+
+msgid ""
+"As a staff member, your view of this rubric accounts for all current "
+"records, including those before their complete date. Parents and students "
+"will only see the rubric based on completed data."
+msgstr ""
+
+msgid "Include Signature? (email only)"
+msgstr ""
+
+msgid ""
+"The timing of this activity conflicts with one or more currently enrolled "
+"activities:"
+msgstr ""
+
+msgid "Not Required"
+msgstr ""
+
+msgid "Show Unavailable Staff?"
+msgstr ""
+
+msgid "General Coverage"
+msgstr ""
+
+msgid "Assigned"
+msgstr ""
+
+msgid "{total} Periods (across {count} Days)"
+msgstr ""
+
+msgid "Coverage is required but has not been requested yet."
+msgstr ""
+
+msgid ""
+"You have submitted a {type} absence for {date}, which is pending approval by "
+"{name}."
+msgstr ""
+
+msgid "Staff Absence with Coverage"
+msgstr ""
+
+msgid ""
+"{name} will be absent on {date} for {type} and has submitted a coverage "
+"request for the following times:"
+msgstr ""
+
+msgid "Reportable to Yes"
+msgstr ""
+
+msgid "Reportable to No"
+msgstr ""
+
+msgid "Pending Edits"
+msgstr ""
+
+msgid "Show All"
+msgstr ""
+
+msgid ""
+"Your messenger signature can be found below. You can use it as a regular "
+"email signature by selecting and copying the following contents into your "
+"email settings."
+msgstr ""
+
+msgid ""
+"You have received a {topic} notification from {systemName} at {organisation} "
+"({time} {date})"
+msgstr ""
+
+msgid "iFrame removed due to security policy"
+msgstr ""
