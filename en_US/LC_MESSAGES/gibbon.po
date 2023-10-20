@@ -28241,3 +28241,11 @@ msgstr ""
 msgid "Staff Duty"
 msgstr ""
 
+#: src/UI/Components/Sidebar.php:717
+msgid "PROFILE PHOTO"
+msgstr ""
+
+#: 
+msgid "Return to top"
+msgstr ""
+
