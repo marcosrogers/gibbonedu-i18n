@@ -24993,3 +24993,40 @@ msgstr ""
 
 msgid "iFrame removed due to security policy"
 msgstr ""
+
+#, php-format
+msgid ""
+"A Remove Stale Notificatons CLI script has run, removing %1$s notifications."
+msgstr ""
+
+msgid "Other Notification Interval"
+msgstr ""
+
+msgid "Staff Notification Interval"
+msgstr ""
+
+msgid ""
+"Frequency of notification icon update in status tray, for all non-staff "
+"users. In thousands of a second."
+msgstr ""
+
+msgid ""
+"Frequency of notification icon update in status tray, for staff users. In "
+"thousands of a second."
+msgstr ""
+
+msgid "Remove Stale Notifications"
+msgstr ""
+
+msgid "On Order"
+msgstr ""
+
+msgid ""
+"Your request was completed successfully, however, the following required "
+"fields are missing values: {invalid}"
+msgstr ""
+
+msgid ""
+"This database will be created if it does not already exist. Collation should "
+"be {collation}"
+msgstr ""
