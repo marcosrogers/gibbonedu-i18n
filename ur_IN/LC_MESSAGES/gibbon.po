@@ -25948,3 +25948,265 @@ msgid ""
 "This database will be created if it does not already exist. Collation should "
 "be {collation}"
 msgstr ""
+
+msgid ""
+"The following people have first aid qualifications that are expiring soon:"
+msgstr ""
+
+msgid "Manage Library Shelves"
+msgstr ""
+
+msgid "View Behaviour Records_my"
+msgstr ""
+
+msgid ""
+"Allows user to manage shelves displaying library items for library browsing."
+msgstr ""
+
+msgid "Enables users to view the behaviour records created by them"
+msgstr ""
+
+msgid "Ivory Coast (CÃ´te d'Ivoire)"
+msgstr ""
+
+msgid "Display privacy options?"
+msgstr ""
+
+msgid ""
+"Comma-separated list of choices to make available if privacy options are "
+"turned on."
+msgstr ""
+
+msgid ""
+"If enabled, privacy options can be selected by users through the Data "
+"Updater and Application Form. If not enabled, privacy options can only be "
+"changed by staff through Manage Users."
+msgstr ""
+
+msgid "Activity Enrolment Added"
+msgstr ""
+
+msgid "Activity Enrolment Removed"
+msgstr ""
+
+msgid "Activity Status Changed"
+msgstr ""
+
+msgid "First Aid Qualification Expiry"
+msgstr ""
+
+msgid "Student Form Group Changed"
+msgstr ""
+
+msgid "{person} has commented on your lesson plan {lessonName}."
+msgstr ""
+
+msgid "{person} has replied to a comment you made on lesson plan {lessonName}."
+msgstr ""
+
+msgid "Edit Shelf"
+msgstr ""
+
+msgid "Shelf Details"
+msgstr ""
+
+msgid "Automatically Shuffle"
+msgstr ""
+
+msgid "Fill Option"
+msgstr ""
+
+msgid "Sub-Category"
+msgstr ""
+
+msgid "Custom Sub-Category"
+msgstr ""
+
+msgid "Add More Items"
+msgstr ""
+
+msgid "Current Items"
+msgstr ""
+
+msgid "Add Shelf"
+msgstr ""
+
+msgid "Shelf Name"
+msgstr ""
+
+msgid "Manual"
+msgstr ""
+
+msgid "What type of item would you like to fill a list with?"
+msgstr ""
+
+msgid "Search Term"
+msgstr ""
+
+msgid "Browse the Library"
+msgstr ""
+
+msgid "Readers Age"
+msgstr ""
+
+msgid "Monthly Top 20"
+msgstr ""
+
+msgid "Manage Shelves"
+msgstr ""
+
+msgid "Fill-Type"
+msgstr ""
+
+msgid "Auto-Shuffle"
+msgstr ""
+
+msgid ""
+"Should original files be deleted from the server when overwriting files?"
+msgstr ""
+
+msgid "Additional Parameters"
+msgstr ""
+
+msgid ""
+"Some systems require additional parameters for a login request in order to "
+"read the user's basic profile."
+msgstr ""
+
+msgid "Scopes"
+msgstr ""
+
+msgid ""
+"Scope is a mechanism in OAuth 2.0 to limit an application's access to a "
+"user's account. An application can request one or more scopes. The standard "
+"scopes for an OpenID Connect compliant system are: openid profile email."
+msgstr ""
+
+msgid "Username attribute"
+msgstr ""
+
+msgid "Name of the attribute containing usernames in the OAuth service."
+msgstr ""
+
+msgid ""
+"{person} has commented on your {homeworkName} for lesson plan "
+"\"{lessonName}\"."
+msgstr ""
+
+msgid ""
+"{person} has replied to a comment on the {homeworkName} for lesson plan "
+"\"{lessonName}\"."
+msgstr ""
+
+msgid "Include Upcoming Students?"
+msgstr ""
+
+msgid "Shareable Send Report"
+msgstr ""
+
+msgid "You can copy this link to share it with other users."
+msgstr ""
+
+msgid "Group name"
+msgstr ""
+
+msgid ""
+"With read receipts enabled, the text [confirmLink] can be included in a "
+"message to add a unique, login-free read receipt link. If [confirmLink] is "
+"not included, the link will be appended to the top of the message."
+msgstr ""
+
+msgid ""
+"When enabled, you can share the Send Report for this message with other "
+"users."
+msgstr ""
+
+msgid ""
+"{student}'s form group was changed from {formGroupFrom} to {formGroupTo} on "
+"{date}"
+msgstr ""
+
+msgid ""
+"{student} {formGroup} will withdraw from {school}, effective from {date}."
+msgstr ""
+
+msgid "The following participants have been set to {status} in {name}"
+msgstr ""
+
+msgid "The following participants have been removed from the activity {name}"
+msgstr ""
+
+msgid "The following participants have been added to the activity {name}"
+msgstr ""
+
+msgid "Mark as Accepted"
+msgstr ""
+
+msgid ""
+"{person} has commented on your expense request for {title} in budget "
+"{budgetName}."
+msgstr ""
+
+msgid ""
+"{person} has requested reimbursement for {title} in budget {budgetName}."
+msgstr ""
+
+msgid ""
+"{person} has requested expense approval for {title} in budget {budgetName}."
+msgstr ""
+
+msgid ""
+"{person} has commented on the expense request for {title} in budget "
+"{budgetName}."
+msgstr ""
+
+msgid "Include all staff, regardless of status and current employment."
+msgstr ""
+
+msgid "{person} has created a {type} behaviour record for {student}."
+msgstr ""
+
+msgid ""
+"{person} has created a {type} behaviour record for your tutee, {student}."
+msgstr ""
+
+msgid "Other Students Involved"
+msgstr ""
+
+msgid "Link To Other Existing Behaviour"
+msgstr ""
+
+msgid "My Students"
+msgstr ""
+
+msgid "Follow Up By "
+msgstr ""
+
+msgid " "
+msgstr ""
+
+msgid "Maximum Size"
+msgstr ""
+
+msgid "In Pixels"
+msgstr ""
+
+msgid "Image Quality"
+msgstr ""
+
+msgid ""
+"The file {file} is missing the extension {ext} and may not work as expected."
+msgstr ""
+
+msgid ""
+"Someone at the IP address {ipAddress} failed to login to account {username} "
+"3 times in a row."
+msgstr ""
+
+msgid ""
+"Your request was successful but the emojis and symbols in your text have "
+"been removed due to compatibility constraints."
+msgstr ""
+
+msgid "Search Terms"
+msgstr ""
